@@ -1,7 +1,7 @@
 # Kickstarter
 This is a module for use with AzerothCore. What it does is adds a single NPC that lets a player perform actions as listed below.
 
-* Obtain uncommon equipment, including accessories and weapons, of item level 177
+* Obtain uncommon equipment, including accessories and weapons, of item level 174
 * Obtain meta, red, blue, yellow, purple, green and orange gems
 * Obtain glyphs specific to their class
 * Obtain spells and talent ranks specific to their class - it will give the player spells at and below their current level
