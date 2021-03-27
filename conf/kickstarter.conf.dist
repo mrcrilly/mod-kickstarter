@@ -1,0 +1,73 @@
+[worldserver]
+
+#############################################################################
+#
+# Enable ability to purchase equipment
+# default: 0 (disabled)
+#
+#############################################################################
+
+Kickstarter.Equipment = 0
+Kickstarter.Equipment.Armor = 0
+Kickstarter.Equipment.Accessories = 0
+Kickstarter.Equipment.Weapons = 0
+
+#############################################################################
+#
+# Enable ability to purchase gems
+# default: 0 (disabled)
+#
+#############################################################################
+
+Kickstarter.Gems = 0
+
+#############################################################################
+#
+# Enable ability to purchase glyphs
+# default: 0 (disabled)
+#
+#############################################################################
+
+Kickstarter.Glyphs = 0
+
+#############################################################################
+#
+# Enable ability to receive all spells for their class
+# default: 0 (disabled)
+#
+# NOT YET REWORKED TO TAKE PLAYERS LEVEL IN MIND!!!
+#
+#############################################################################
+
+Kickstarter.Spells = 0
+
+#############################################################################
+#
+# Enable ability to receive all proficiencies for their class
+# default: 0 (disabled)
+#
+# This includes things such as Mail, One-Handed Axes etc
+#
+#############################################################################
+
+Kickstarter.Proficiency = 0
+Kickstarter.Proficiency.Max = 0
+
+#############################################################################
+#
+# Enable ability to obtain riding skills and certain mounts
+# default: 0 (disabled)
+#
+# Each skill will teach the player the specific mounts limited to that skill
+# They also include race-specific mounts
+#
+# This is currently not implemented except for the first choice!
+#
+#############################################################################
+
+Kickstarter.Mounts = 0
+Kickstarter.Mounts.Apprentice = 0
+Kickstarter.Mounts.Journeyman = 0
+Kickstarter.Mounts.Expert = 0
+Kickstarter.Mounts.Artisan = 0
+Kickstarter.Mounts.ColdWeather = 0
