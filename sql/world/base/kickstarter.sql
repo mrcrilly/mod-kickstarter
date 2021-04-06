@@ -28,6 +28,7 @@ INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+1, 'What do you need?');
 
 
 
+/* Level 80 Greens - Uncomment to enable
 -- Equipment
 -- Cloth
 DELETE FROM `npc_vendor` WHERE `entry`=@Entry;
@@ -418,6 +419,212 @@ UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN (42860, 
 DELETE FROM `npc_vendor` WHERE `entry`=@Entry+24;
 INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+24, 42860);
 INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+24, 43843);
+*/
+
+
+
+/* Level 70 Greens - Uncomment to enable
+-- Equipment
+-- Cloth
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry;
+-- Head
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry, x);
+-- Shoulders
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry, x);
+-- Chest
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry, x);
+-- Wrist
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry, x);
+-- Hands
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry, x);
+-- Waist
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry, x);
+-- Legs
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry, x);
+-- Feet
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry, x);
+
+-- Leather
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+1;
+-- Head
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+1, x);
+-- Shoulders
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+1, x);
+-- Chest
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+1, x);
+-- Wrist
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+1, x);
+-- Hands
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+1, x);
+-- Waist
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+1, x);
+-- Legs
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+1, x);
+-- Feet
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+1, x);
+
+-- Mail
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+2;
+-- Head
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+2, x);
+-- Shoulders
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+2, x);
+-- Chest
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+2, x);
+-- Wrist
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+2, x);
+-- Hands
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+2, x);
+-- Waist
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+2, x);
+-- Legs
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+2, x);
+-- Feet
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+2, x);
+
+-- Plate Mail
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+3;
+-- Head
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+3, x);
+-- Shoulders
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+3, x);
+-- Chest
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+3, x);
+-- Wrist
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+3, x);
+-- Hands
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+3, x);
+-- Waist
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+3, x);
+-- Legs
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+3, x);
+-- Feet
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+3, x);
+
+
+
+-- Accessories
+-- Cloaks
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+4;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+4, x);
+-- Amulets
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+5;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+5, x);
+-- Rings
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+6;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+6, x);
+-- Trinkets
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+7;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+7, x);
+
+
+
+-- Weapons
+-- Daggers
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+8;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+8, x);
+-- Fist Weapons
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+9;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+9, x);
+-- One-Handed Axes
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+10;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+10, x);
+-- One-Handed Maces
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+11;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+11, x);
+-- One-Handed Swords
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+12;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+12, x);
+-- Polearms
+-- UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+13;
+-- INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+13, x);
+-- Staves
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+14;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+14, x);
+-- Two-Handed Axes
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+15;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+15, x);
+-- Two-Handed Maces
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+16;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+16, x);
+-- Two-Handed Swords
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+17;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+17, x);
+-- Bows
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+18;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+18, x);
+-- Crossbows
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+19;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+19, x);
+-- Guns
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+20;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+20, x);
+-- Thrown
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+21;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+21, x);
+-- Wands
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+22;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+22, x);
+-- Off-Hand Frills
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+23;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+23, x);
+-- Shields
+UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN ();
+DELETE FROM `npc_vendor` WHERE `entry`=@Entry+24;
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+24, x);
+*/
 
 
 
