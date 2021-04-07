@@ -348,7 +348,7 @@ INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+12, 42807);
 INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+12, 43833);
 INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+12, 43923);
 -- Polearms
-UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=1 WHERE `entry` IN ();
+-- UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=1 WHERE `entry` IN ();
 DELETE FROM `npc_vendor` WHERE `entry`=@Entry+13;
 -- INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+13, 0);
 -- Staves
