@@ -19,27 +19,30 @@
 #define VENDOR_GEMS 9000025
 #define VENDOR_GLYPHS 9000032
 
-#define PROFICIENCY_BLOCK 107
-#define PROFICIENCY_ONE_HANDED_AXES 196
-#define PROFICIENCY_TWO_HANDED_AXES 197
-#define PROFICIENCY_ONE_HANDED_MACES 198
-#define PROFICIENCY_TWO_HANDED_MACES 199
-#define PROFICIENCY_POLEARMS 200
-#define PROFICIENCY_ONE_HANDED_SWORDS 201
-#define PROFICIENCY_TWO_HANDED_SWORDS 202
-#define PROFICIENCY_STAVES 227
-#define PROFICIENCY_BOWS 264
-#define PROFICIENCY_GUNS 266
-#define PROFICIENCY_DUAL_WIELD 674
-#define PROFICIENCY_PLATE_MAIL 750
-#define PROFICIENCY_DAGGERS 1180
-#define PROFICIENCY_THROWN 2567
-#define PROFICIENCY_PARRY 3127
-#define PROFICIENCY_WANDS 5009
-#define PROFICIENCY_CROSSBOWS 5011
-#define PROFICIENCY_MAIL 8737
-#define PROFICIENCY_SHIELD 9116
-#define PROFICIENCY_FIST_WEAPONS 15590
+enum PROFICIENCY
+{
+    BLOCK = 107,
+    ONE_HANDED_AXES = 196,
+    TWO_HANDED_AXES = 197,
+    ONE_HANDED_MACES = 198,
+    TWO_HANDED_MACES = 199,
+    POLEARMS = 200,
+    ONE_HANDED_SWORDS = 201,
+    TWO_HANDED_SWORDS = 202,
+    STAVES = 227,
+    BOWS = 264,
+    GUNS = 266,
+    DUAL_WIELD = 674,
+    PLATE_MAIL = 750,
+    DAGGERS = 1180,
+    THROWN = 2567,
+    PARRY = 3127,
+    WANDS = 5009,
+    CROSSBOWS = 5011,
+    MAIL = 8737,
+    SHIELD = 9116,
+    FIST_WEAPONS = 15590
+};
 
 int spellPriest[208][2] = {{1243,1},{2050,1},{585,1},{2052,4},{589,4},{591,6},{17,6},{586,8},{139,8},{2006,10},{2053,10},{8092,10},{594,10},{592,12},{588,12},{1244,12},{598,14},{6074,14},{8122,14},{528,14},{2054,16},{8102,16},{600,18},{527,18},{970,18},{7128,20},{9484,20},{14914,20},{2061,20},{15237,20},{6075,20},{2944,20},{453,20},{6346,20},{2055,22},{2010,22},{984,22},{2096,22},{8103,22},{1245,24},{3747,24},{15262,24},{8129,24},{9472,26},{6076,26},{992,26},{6063,28},{15430,28},{8124,28},{19276,28},{8104,28},{6065,30},{602,30},{14752,30},{596,30},{15263,30},{1004,30},{976,30},{605,30},{552,32},{9473,32},{6077,32},{6064,34},{10880,34},{8105,34},{2767,34},{1706,34},{6066,36},{988,36},{2791,36},{15264,36},{15431,36},{19277,36},{9474,38},{6060,38},{6078,38},{1006,40},{14818,40},{9485,40},{996,40},{2060,40},{8106,40},{10898,42},{15265,42},{10888,42},{10957,42},{10892,42},{10915,44},{27799,44},{10927,44},{10909,44},{19278,44},{10963,46},{10881,46},{10933,46},{10945,46},{10899,48},{10937,48},{21562,48},{15266,48},{10951,50},{14819,50},{10960,50},{10916,50},{10928,50},{10893,50},{10964,52},{27800,52},{19279,52},{10946,52},{10900,54},{15267,54},{10934,54},{10917,56},{10929,56},{10890,56},{10958,56},{27683,56},{10965,58},{20770,58},{10947,58},{10894,58},{10952,60},{27841,60},{10901,60},{10938,60},{21564,60},{27681,60},{10955,60},{10961,60},{25316,60},{25314,60},{15261,60},{27801,60},{25315,60},{19280,60},{25233,61},{25363,61},{32379,62},{25210,63},{25372,63},{32546,64},{25217,65},{25221,65},{25367,65},{25384,66},{34433,66},{25235,67},{25308,68},{25213,68},{25435,68},{33076,68},{25331,68},{25433,68},{25467,68},{25431,69},{25364,69},{25375,69},{25312,70},{25218,70},{25389,70},{25392,70},{32999,70},{25222,70},{39374,70},{32996,70},{32375,70},{25368,70},{48040,71},{48119,72},{48134,72},{48062,73},{48070,73},{48299,73},{48112,74},{48122,74},{48126,74},{48065,75},{48077,75},{48067,75},{48045,75},{48157,75},{48124,75},{48072,76},{48169,76},{48168,77},{48170,77},{48120,78},{48063,78},{48135,78},{48171,78},{48071,79},{48113,79},{48123,79},{48300,79},{48127,79},{48073,80},{48161,80},{48066,80},{48162,80},{48074,80},{48078,80},{48068,80},{53023,80},{48158,80},{48125,80},{64843,80},{64901,80}};
 int talentPriest[34][3] = {{53005,70,47540},{53006,75,53005},{53007,80,53006},{19238,26,19236},{19240,34,19238},{19241,42,19240},{19242,50,19241},{19243,58,19242},{25437,66,19243},{48172,73,25437},{48173,80,48172},{27870,50,724},{27871,60,27870},{28275,70,27871},{48086,75,28275},{48087,80,48086},{34863,56,34861},{34864,60,34863},{34865,65,34864},{34866,70,34865},{48088,75,34866},{48089,80,48088},{17311,28,15407},{17312,36,17311},{17313,44,17312},{17314,52,17313},{18807,60,17314},{25387,68,18807},{48155,74,25387},{48156,80,48155},{34916,60,34914},{34917,70,34916},{48159,75,34917},{48160,80,48159}};
@@ -600,210 +603,210 @@ class Kickstarter : public CreatureScript
                 switch (player->getClass())
                 {
                     case CLASS_PRIEST:
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_MACES))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_MACES);
-                        if (!player->HasSpell(PROFICIENCY_DAGGERS))
-                            player->learnSpell(PROFICIENCY_DAGGERS);
-                        if (!player->HasSpell(PROFICIENCY_STAVES))
-                            player->learnSpell(PROFICIENCY_STAVES);
-                        if (!player->HasSpell(PROFICIENCY_WANDS))
-                            player->learnSpell(PROFICIENCY_WANDS);
+                        if (!player->HasSpell(ONE_HANDED_MACES))
+                            player->learnSpell(ONE_HANDED_MACES);
+                        if (!player->HasSpell(DAGGERS))
+                            player->learnSpell(DAGGERS);
+                        if (!player->HasSpell(STAVES))
+                            player->learnSpell(STAVES);
+                        if (!player->HasSpell(WANDS))
+                            player->learnSpell(WANDS);
                         break;
                     case CLASS_PALADIN:
-                        if (!player->HasSpell(PROFICIENCY_MAIL))
-                            player->learnSpell(PROFICIENCY_MAIL);
-                        if (!player->HasSpell(PROFICIENCY_PLATE_MAIL))
-                            player->learnSpell(PROFICIENCY_PLATE_MAIL);
-                        if (!player->HasSpell(PROFICIENCY_POLEARMS))
-                            player->learnSpell(PROFICIENCY_POLEARMS);
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_MACES))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_MACES);
-                        if (!player->HasSpell(PROFICIENCY_TWO_HANDED_MACES))
-                            player->learnSpell(PROFICIENCY_TWO_HANDED_MACES);
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_SWORDS))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_SWORDS);
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_AXES))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_AXES);
-                        if (!player->HasSpell(PROFICIENCY_TWO_HANDED_AXES))
-                            player->learnSpell(PROFICIENCY_TWO_HANDED_AXES);
-                        if (!player->HasSpell(PROFICIENCY_TWO_HANDED_SWORDS))
-                            player->learnSpell(PROFICIENCY_TWO_HANDED_SWORDS);
-                        if (!player->HasSpell(PROFICIENCY_SHIELD))
-                            player->learnSpell(PROFICIENCY_SHIELD);
-                        if (!player->HasSpell(PROFICIENCY_PARRY))
-                            player->learnSpell(PROFICIENCY_PARRY);
-                        if (!player->HasSpell(PROFICIENCY_BLOCK))
-                            player->learnSpell(PROFICIENCY_BLOCK);
+                        if (!player->HasSpell(MAIL))
+                            player->learnSpell(MAIL);
+                        if (!player->HasSpell(PLATE_MAIL))
+                            player->learnSpell(PLATE_MAIL);
+                        if (!player->HasSpell(POLEARMS))
+                            player->learnSpell(POLEARMS);
+                        if (!player->HasSpell(ONE_HANDED_MACES))
+                            player->learnSpell(ONE_HANDED_MACES);
+                        if (!player->HasSpell(TWO_HANDED_MACES))
+                            player->learnSpell(TWO_HANDED_MACES);
+                        if (!player->HasSpell(ONE_HANDED_SWORDS))
+                            player->learnSpell(ONE_HANDED_SWORDS);
+                        if (!player->HasSpell(ONE_HANDED_AXES))
+                            player->learnSpell(ONE_HANDED_AXES);
+                        if (!player->HasSpell(TWO_HANDED_AXES))
+                            player->learnSpell(TWO_HANDED_AXES);
+                        if (!player->HasSpell(TWO_HANDED_SWORDS))
+                            player->learnSpell(TWO_HANDED_SWORDS);
+                        if (!player->HasSpell(SHIELD))
+                            player->learnSpell(SHIELD);
+                        if (!player->HasSpell(PARRY))
+                            player->learnSpell(PARRY);
+                        if (!player->HasSpell(BLOCK))
+                            player->learnSpell(BLOCK);
                         break;
                     case CLASS_WARRIOR:
-                        if (!player->HasSpell(PROFICIENCY_MAIL))
-                            player->learnSpell(PROFICIENCY_MAIL);
-                        if (!player->HasSpell(PROFICIENCY_PLATE_MAIL))
-                            player->learnSpell(PROFICIENCY_PLATE_MAIL);
-                        if (!player->HasSpell(PROFICIENCY_POLEARMS))
-                            player->learnSpell(PROFICIENCY_POLEARMS);
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_MACES))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_MACES);
-                        if (!player->HasSpell(PROFICIENCY_TWO_HANDED_MACES))
-                            player->learnSpell(PROFICIENCY_TWO_HANDED_MACES);
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_SWORDS))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_SWORDS);
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_AXES))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_AXES);
-                        if (!player->HasSpell(PROFICIENCY_TWO_HANDED_SWORDS))
-                            player->learnSpell(PROFICIENCY_TWO_HANDED_SWORDS);
-                        if (!player->HasSpell(PROFICIENCY_DUAL_WIELD))
-                            player->learnSpell(PROFICIENCY_DUAL_WIELD);
-                        if (!player->HasSpell(PROFICIENCY_DAGGERS))
-                            player->learnSpell(PROFICIENCY_DAGGERS);
-                        if (!player->HasSpell(PROFICIENCY_STAVES))
-                            player->learnSpell(PROFICIENCY_STAVES);
-                        if (!player->HasSpell(PROFICIENCY_FIST_WEAPONS))
-                            player->learnSpell(PROFICIENCY_FIST_WEAPONS);
-                        if (!player->HasSpell(PROFICIENCY_BOWS))
-                            player->learnSpell(PROFICIENCY_BOWS);
-                        if (!player->HasSpell(PROFICIENCY_CROSSBOWS))
-                            player->learnSpell(PROFICIENCY_CROSSBOWS);
-                        if (!player->HasSpell(PROFICIENCY_GUNS))
-                            player->learnSpell(PROFICIENCY_GUNS);
-                        if (!player->HasSpell(PROFICIENCY_SHIELD))
-                            player->learnSpell(PROFICIENCY_SHIELD);
-                        if (!player->HasSpell(PROFICIENCY_PARRY))
-                            player->learnSpell(PROFICIENCY_PARRY);
-                        if (!player->HasSpell(PROFICIENCY_BLOCK))
-                            player->learnSpell(PROFICIENCY_BLOCK);
+                        if (!player->HasSpell(MAIL))
+                            player->learnSpell(MAIL);
+                        if (!player->HasSpell(PLATE_MAIL))
+                            player->learnSpell(PLATE_MAIL);
+                        if (!player->HasSpell(POLEARMS))
+                            player->learnSpell(POLEARMS);
+                        if (!player->HasSpell(ONE_HANDED_MACES))
+                            player->learnSpell(ONE_HANDED_MACES);
+                        if (!player->HasSpell(TWO_HANDED_MACES))
+                            player->learnSpell(TWO_HANDED_MACES);
+                        if (!player->HasSpell(ONE_HANDED_SWORDS))
+                            player->learnSpell(ONE_HANDED_SWORDS);
+                        if (!player->HasSpell(ONE_HANDED_AXES))
+                            player->learnSpell(ONE_HANDED_AXES);
+                        if (!player->HasSpell(TWO_HANDED_SWORDS))
+                            player->learnSpell(TWO_HANDED_SWORDS);
+                        if (!player->HasSpell(DUAL_WIELD))
+                            player->learnSpell(DUAL_WIELD);
+                        if (!player->HasSpell(DAGGERS))
+                            player->learnSpell(DAGGERS);
+                        if (!player->HasSpell(STAVES))
+                            player->learnSpell(STAVES);
+                        if (!player->HasSpell(FIST_WEAPONS))
+                            player->learnSpell(FIST_WEAPONS);
+                        if (!player->HasSpell(BOWS))
+                            player->learnSpell(BOWS);
+                        if (!player->HasSpell(CROSSBOWS))
+                            player->learnSpell(CROSSBOWS);
+                        if (!player->HasSpell(GUNS))
+                            player->learnSpell(GUNS);
+                        if (!player->HasSpell(SHIELD))
+                            player->learnSpell(SHIELD);
+                        if (!player->HasSpell(PARRY))
+                            player->learnSpell(PARRY);
+                        if (!player->HasSpell(BLOCK))
+                            player->learnSpell(BLOCK);
                         break;
                     case CLASS_MAGE:
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_SWORDS))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_SWORDS);
-                        if (!player->HasSpell(PROFICIENCY_DAGGERS))
-                            player->learnSpell(PROFICIENCY_DAGGERS);
-                        if (!player->HasSpell(PROFICIENCY_STAVES))
-                            player->learnSpell(PROFICIENCY_STAVES);
-                        if (!player->HasSpell(PROFICIENCY_WANDS))
-                            player->learnSpell(PROFICIENCY_WANDS);
+                        if (!player->HasSpell(ONE_HANDED_SWORDS))
+                            player->learnSpell(ONE_HANDED_SWORDS);
+                        if (!player->HasSpell(DAGGERS))
+                            player->learnSpell(DAGGERS);
+                        if (!player->HasSpell(STAVES))
+                            player->learnSpell(STAVES);
+                        if (!player->HasSpell(WANDS))
+                            player->learnSpell(WANDS);
                         break;
                     case CLASS_WARLOCK:
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_SWORDS))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_SWORDS);
-                        if (!player->HasSpell(PROFICIENCY_DAGGERS))
-                            player->learnSpell(PROFICIENCY_DAGGERS);
-                        if (!player->HasSpell(PROFICIENCY_STAVES))
-                            player->learnSpell(PROFICIENCY_STAVES);
-                        if (!player->HasSpell(PROFICIENCY_WANDS))
-                            player->learnSpell(PROFICIENCY_WANDS);
+                        if (!player->HasSpell(ONE_HANDED_SWORDS))
+                            player->learnSpell(ONE_HANDED_SWORDS);
+                        if (!player->HasSpell(DAGGERS))
+                            player->learnSpell(DAGGERS);
+                        if (!player->HasSpell(STAVES))
+                            player->learnSpell(STAVES);
+                        if (!player->HasSpell(WANDS))
+                            player->learnSpell(WANDS);
                         break;
                     case CLASS_SHAMAN:
-                        if (!player->HasSpell(PROFICIENCY_MAIL))
-                            player->learnSpell(PROFICIENCY_MAIL);
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_MACES))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_MACES);
-                        if (!player->HasSpell(PROFICIENCY_TWO_HANDED_MACES))
-                            player->learnSpell(PROFICIENCY_TWO_HANDED_MACES);
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_AXES))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_AXES);
-                        if (!player->HasSpell(PROFICIENCY_TWO_HANDED_AXES))
-                            player->learnSpell(PROFICIENCY_TWO_HANDED_AXES);
-                        if (!player->HasSpell(PROFICIENCY_DAGGERS))
-                            player->learnSpell(PROFICIENCY_DAGGERS);
-                        if (!player->HasSpell(PROFICIENCY_STAVES))
-                            player->learnSpell(PROFICIENCY_STAVES);
-                        if (!player->HasSpell(PROFICIENCY_FIST_WEAPONS))
-                            player->learnSpell(PROFICIENCY_FIST_WEAPONS);
-                        if (!player->HasSpell(PROFICIENCY_SHIELD))
-                            player->learnSpell(PROFICIENCY_SHIELD);
-                        if (!player->HasSpell(PROFICIENCY_BLOCK))
-                            player->learnSpell(PROFICIENCY_BLOCK);
+                        if (!player->HasSpell(MAIL))
+                            player->learnSpell(MAIL);
+                        if (!player->HasSpell(ONE_HANDED_MACES))
+                            player->learnSpell(ONE_HANDED_MACES);
+                        if (!player->HasSpell(TWO_HANDED_MACES))
+                            player->learnSpell(TWO_HANDED_MACES);
+                        if (!player->HasSpell(ONE_HANDED_AXES))
+                            player->learnSpell(ONE_HANDED_AXES);
+                        if (!player->HasSpell(TWO_HANDED_AXES))
+                            player->learnSpell(TWO_HANDED_AXES);
+                        if (!player->HasSpell(DAGGERS))
+                            player->learnSpell(DAGGERS);
+                        if (!player->HasSpell(STAVES))
+                            player->learnSpell(STAVES);
+                        if (!player->HasSpell(FIST_WEAPONS))
+                            player->learnSpell(FIST_WEAPONS);
+                        if (!player->HasSpell(SHIELD))
+                            player->learnSpell(SHIELD);
+                        if (!player->HasSpell(BLOCK))
+                            player->learnSpell(BLOCK);
                         break;
                     case CLASS_DRUID:
-                        if (!player->HasSpell(PROFICIENCY_POLEARMS))
-                            player->learnSpell(PROFICIENCY_POLEARMS);
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_MACES))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_MACES);
-                        if (!player->HasSpell(PROFICIENCY_TWO_HANDED_MACES))
-                            player->learnSpell(PROFICIENCY_TWO_HANDED_MACES);
-                        if (!player->HasSpell(PROFICIENCY_DAGGERS))
-                            player->learnSpell(PROFICIENCY_DAGGERS);
-                        if (!player->HasSpell(PROFICIENCY_STAVES))
-                            player->learnSpell(PROFICIENCY_STAVES);
-                        if (!player->HasSpell(PROFICIENCY_FIST_WEAPONS))
-                            player->learnSpell(PROFICIENCY_FIST_WEAPONS);
+                        if (!player->HasSpell(POLEARMS))
+                            player->learnSpell(POLEARMS);
+                        if (!player->HasSpell(ONE_HANDED_MACES))
+                            player->learnSpell(ONE_HANDED_MACES);
+                        if (!player->HasSpell(TWO_HANDED_MACES))
+                            player->learnSpell(TWO_HANDED_MACES);
+                        if (!player->HasSpell(DAGGERS))
+                            player->learnSpell(DAGGERS);
+                        if (!player->HasSpell(STAVES))
+                            player->learnSpell(STAVES);
+                        if (!player->HasSpell(FIST_WEAPONS))
+                            player->learnSpell(FIST_WEAPONS);
                         break;
                     case CLASS_HUNTER:
-                        if (!player->HasSpell(PROFICIENCY_MAIL))
-                            player->learnSpell(PROFICIENCY_MAIL);
-                        if (!player->HasSpell(PROFICIENCY_POLEARMS))
-                            player->learnSpell(PROFICIENCY_POLEARMS);
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_SWORDS))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_SWORDS);
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_AXES))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_AXES);
-                        if (!player->HasSpell(PROFICIENCY_TWO_HANDED_AXES))
-                            player->learnSpell(PROFICIENCY_TWO_HANDED_AXES);
-                        if (!player->HasSpell(PROFICIENCY_TWO_HANDED_SWORDS))
-                            player->learnSpell(PROFICIENCY_TWO_HANDED_SWORDS);
-                        if (!player->HasSpell(PROFICIENCY_DUAL_WIELD))
-                            player->learnSpell(PROFICIENCY_DUAL_WIELD);
-                        if (!player->HasSpell(PROFICIENCY_DAGGERS))
-                            player->learnSpell(PROFICIENCY_DAGGERS);
-                        if (!player->HasSpell(PROFICIENCY_STAVES))
-                            player->learnSpell(PROFICIENCY_STAVES);
-                        if (!player->HasSpell(PROFICIENCY_FIST_WEAPONS))
-                            player->learnSpell(PROFICIENCY_FIST_WEAPONS);
-                        if (!player->HasSpell(PROFICIENCY_BOWS))
-                            player->learnSpell(PROFICIENCY_BOWS);
-                        if (!player->HasSpell(PROFICIENCY_CROSSBOWS))
-                            player->learnSpell(PROFICIENCY_CROSSBOWS);
-                        if (!player->HasSpell(PROFICIENCY_GUNS))
-                            player->learnSpell(PROFICIENCY_GUNS);
-                        if (!player->HasSpell(PROFICIENCY_PARRY))
-                            player->learnSpell(PROFICIENCY_PARRY);
+                        if (!player->HasSpell(MAIL))
+                            player->learnSpell(MAIL);
+                        if (!player->HasSpell(POLEARMS))
+                            player->learnSpell(POLEARMS);
+                        if (!player->HasSpell(ONE_HANDED_SWORDS))
+                            player->learnSpell(ONE_HANDED_SWORDS);
+                        if (!player->HasSpell(ONE_HANDED_AXES))
+                            player->learnSpell(ONE_HANDED_AXES);
+                        if (!player->HasSpell(TWO_HANDED_AXES))
+                            player->learnSpell(TWO_HANDED_AXES);
+                        if (!player->HasSpell(TWO_HANDED_SWORDS))
+                            player->learnSpell(TWO_HANDED_SWORDS);
+                        if (!player->HasSpell(DUAL_WIELD))
+                            player->learnSpell(DUAL_WIELD);
+                        if (!player->HasSpell(DAGGERS))
+                            player->learnSpell(DAGGERS);
+                        if (!player->HasSpell(STAVES))
+                            player->learnSpell(STAVES);
+                        if (!player->HasSpell(FIST_WEAPONS))
+                            player->learnSpell(FIST_WEAPONS);
+                        if (!player->HasSpell(BOWS))
+                            player->learnSpell(BOWS);
+                        if (!player->HasSpell(CROSSBOWS))
+                            player->learnSpell(CROSSBOWS);
+                        if (!player->HasSpell(GUNS))
+                            player->learnSpell(GUNS);
+                        if (!player->HasSpell(PARRY))
+                            player->learnSpell(PARRY);
                         break;
                     case CLASS_ROGUE:
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_MACES))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_MACES);
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_SWORDS))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_SWORDS);
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_AXES))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_AXES);
-                        if (!player->HasSpell(PROFICIENCY_DUAL_WIELD))
-                            player->learnSpell(PROFICIENCY_DUAL_WIELD);
-                        if (!player->HasSpell(PROFICIENCY_DAGGERS))
-                            player->learnSpell(PROFICIENCY_DAGGERS);
-                        if (!player->HasSpell(PROFICIENCY_FIST_WEAPONS))
-                            player->learnSpell(PROFICIENCY_FIST_WEAPONS);
-                        if (!player->HasSpell(PROFICIENCY_BOWS))
-                            player->learnSpell(PROFICIENCY_BOWS);
-                        if (!player->HasSpell(PROFICIENCY_CROSSBOWS))
-                            player->learnSpell(PROFICIENCY_CROSSBOWS);
-                        if (!player->HasSpell(PROFICIENCY_GUNS))
-                            player->learnSpell(PROFICIENCY_GUNS);
-                        if (!player->HasSpell(PROFICIENCY_PARRY))
-                            player->learnSpell(PROFICIENCY_PARRY);
+                        if (!player->HasSpell(ONE_HANDED_MACES))
+                            player->learnSpell(ONE_HANDED_MACES);
+                        if (!player->HasSpell(ONE_HANDED_SWORDS))
+                            player->learnSpell(ONE_HANDED_SWORDS);
+                        if (!player->HasSpell(ONE_HANDED_AXES))
+                            player->learnSpell(ONE_HANDED_AXES);
+                        if (!player->HasSpell(DUAL_WIELD))
+                            player->learnSpell(DUAL_WIELD);
+                        if (!player->HasSpell(DAGGERS))
+                            player->learnSpell(DAGGERS);
+                        if (!player->HasSpell(FIST_WEAPONS))
+                            player->learnSpell(FIST_WEAPONS);
+                        if (!player->HasSpell(BOWS))
+                            player->learnSpell(BOWS);
+                        if (!player->HasSpell(CROSSBOWS))
+                            player->learnSpell(CROSSBOWS);
+                        if (!player->HasSpell(GUNS))
+                            player->learnSpell(GUNS);
+                        if (!player->HasSpell(PARRY))
+                            player->learnSpell(PARRY);
                         break;
                     case CLASS_DEATH_KNIGHT:
-                        if (!player->HasSpell(PROFICIENCY_MAIL))
-                            player->learnSpell(PROFICIENCY_MAIL);
-                        if (!player->HasSpell(PROFICIENCY_PLATE_MAIL))
-                            player->learnSpell(PROFICIENCY_PLATE_MAIL);
-                        if (!player->HasSpell(PROFICIENCY_POLEARMS))
-                            player->learnSpell(PROFICIENCY_POLEARMS);
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_MACES))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_MACES);
-                        if (!player->HasSpell(PROFICIENCY_TWO_HANDED_MACES))
-                            player->learnSpell(PROFICIENCY_TWO_HANDED_MACES);
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_SWORDS))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_SWORDS);
-                        if (!player->HasSpell(PROFICIENCY_ONE_HANDED_AXES))
-                            player->learnSpell(PROFICIENCY_ONE_HANDED_AXES);
-                        if (!player->HasSpell(PROFICIENCY_TWO_HANDED_AXES))
-                            player->learnSpell(PROFICIENCY_TWO_HANDED_AXES);
-                        if (!player->HasSpell(PROFICIENCY_TWO_HANDED_SWORDS))
-                            player->learnSpell(PROFICIENCY_TWO_HANDED_SWORDS);
-                        if (!player->HasSpell(PROFICIENCY_DUAL_WIELD))
-                            player->learnSpell(PROFICIENCY_DUAL_WIELD);
-                        if (!player->HasSpell(PROFICIENCY_PARRY))
-                            player->learnSpell(PROFICIENCY_PARRY);
+                        if (!player->HasSpell(MAIL))
+                            player->learnSpell(MAIL);
+                        if (!player->HasSpell(PLATE_MAIL))
+                            player->learnSpell(PLATE_MAIL);
+                        if (!player->HasSpell(POLEARMS))
+                            player->learnSpell(POLEARMS);
+                        if (!player->HasSpell(ONE_HANDED_MACES))
+                            player->learnSpell(ONE_HANDED_MACES);
+                        if (!player->HasSpell(TWO_HANDED_MACES))
+                            player->learnSpell(TWO_HANDED_MACES);
+                        if (!player->HasSpell(ONE_HANDED_SWORDS))
+                            player->learnSpell(ONE_HANDED_SWORDS);
+                        if (!player->HasSpell(ONE_HANDED_AXES))
+                            player->learnSpell(ONE_HANDED_AXES);
+                        if (!player->HasSpell(TWO_HANDED_AXES))
+                            player->learnSpell(TWO_HANDED_AXES);
+                        if (!player->HasSpell(TWO_HANDED_SWORDS))
+                            player->learnSpell(TWO_HANDED_SWORDS);
+                        if (!player->HasSpell(DUAL_WIELD))
+                            player->learnSpell(DUAL_WIELD);
+                        if (!player->HasSpell(PARRY))
+                            player->learnSpell(PARRY);
                         break;
                 }
 
