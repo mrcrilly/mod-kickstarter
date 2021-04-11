@@ -33,17 +33,6 @@ DELETE FROM `npc_text` WHERE `ID`=@Entry+4;
 INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+4, 'I\'m afraid this service is only available to those at the maximum level...');
 
 /*-- Gems
--- Red Gems
-UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN (40111, 40112, 40113, 40114, 40115, 40116, 40117, 40118);
-DELETE FROM `npc_vendor` WHERE `entry`=@Entry+26;
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+26, 40111);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+26, 40112);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+26, 40113);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+26, 40114);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+26, 40115);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+26, 40116);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+26, 40117);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+26, 40118);
 -- Blue Gems
 UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN (40119, 40120, 40121, 40122);
 DELETE FROM `npc_vendor` WHERE `entry`=@Entry+27;

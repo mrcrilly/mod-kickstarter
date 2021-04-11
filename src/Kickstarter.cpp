@@ -45,6 +45,11 @@ class Kickstarter : public CreatureScript
                 return false;
             }
 
+            if (action == 1)
+            {
+                OnGossipHello(player, creature);
+            }
+
             // Equipment
             if (action == ID_EQUIPMENT)
             {
@@ -57,6 +62,7 @@ class Kickstarter : public CreatureScript
                         if (player->GetItemByPos(INVENTORY_SLOT_BAG_0, i))
                         {
                             AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Remove all my equipment", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+31);
+                            AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, 1);
                             SendGossipMenuFor(player, TEXT_KICKSTARTER_EQUIPMENT, creature->GetGUID());
                             return false;
                         }
@@ -118,11 +124,13 @@ class Kickstarter : public CreatureScript
                             break;
                     }
 
+                    AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, 1);
                     SendGossipMenuFor(player, TEXT_KICKSTARTER_SPECIALIZATION, creature->GetGUID());
                 }
                 else
                 {
                     ClearGossipMenuFor(player);
+                    AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, 1);
                     SendGossipMenuFor(player, TEXT_KICKSTARTER_LEVEL, creature->GetGUID());
                 }
             }
@@ -150,7 +158,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 42811, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 42796, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 43828, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Priest: Holy
@@ -176,7 +185,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 42811, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 42796, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 43828, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Priest: Shadow
@@ -202,7 +212,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 42811, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 42796, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 43828, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Paladin: Holy
@@ -233,7 +244,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_BACK, 43925, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 39143, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 42860, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Paladin: Protection
@@ -264,7 +276,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_BACK, 43924, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 43923, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 43843, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Paladin: Retribution
@@ -292,7 +305,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_TRINKET2, 43829, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_BACK, 43924, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 43832, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Warrior: Arms
@@ -324,7 +338,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 43923, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 42786, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 39134, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Warrior: Fury
@@ -356,7 +371,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 43923, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 42786, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 39134, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Warrior: Protection
@@ -390,7 +406,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 43923, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 43843, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 39134, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Mage: Arcane
@@ -416,7 +433,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 42811, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 42796, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 43828, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Mage: Fire
@@ -442,7 +460,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 42811, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 42796, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 43828, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Mage: Frost
@@ -468,7 +487,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 42811, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 42796, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 43828, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Warlock: Affliction
@@ -494,7 +514,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 42811, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 42796, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 43828, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Warlock: Demonology
@@ -520,7 +541,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 42811, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 42796, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 43828, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Warlock: Destruction
@@ -546,7 +568,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 42811, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 42796, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 43828, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Shaman: Elemental
@@ -575,7 +598,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_BACK, 43925, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 39143, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 42860, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Shaman: Enhancement
@@ -602,7 +626,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_BACK, 43889, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 43888, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 39144, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Shaman: Restoration
@@ -631,7 +656,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_BACK, 43925, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 39143, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 42860, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Druid: Balance
@@ -655,7 +681,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_TRINKET2, 38765, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_BACK, 43925, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 39121, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Druid: Feral Combat
@@ -679,7 +706,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_TRINKET2, 43829, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_BACK, 43889, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 43920, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Druid: Restoration
@@ -703,7 +731,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_TRINKET2, 38763, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_BACK, 43925, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 39121, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Hunter: Beast Mastery
@@ -733,7 +762,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 39130, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 43915, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 43928, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Hunter: Marksmanship
@@ -763,7 +793,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 39130, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 43915, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 43928, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Hunter: Survival
@@ -793,7 +824,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 39130, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 43915, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 43928, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Rogue: Assassination
@@ -819,7 +851,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 39130, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 43915, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 43900, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Rogue: Combat
@@ -845,7 +878,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 39130, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 43915, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 43900, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Rogue: Subtlety
@@ -871,7 +905,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 39130, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 43915, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_RANGED, 43900, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Death Knight: Blood
@@ -899,7 +934,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_TRINKET2, 43829, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_BACK, 43924, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 43832, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Death Knight: Frost
@@ -928,7 +964,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_BACK, 43924, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 43923, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 42786, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Death Knight: Unholy
@@ -957,7 +994,8 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_BACK, 43924, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 43923, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 42786, true);
-                player->CLOSE_GOSSIP_MENU();
+
+                OnGossipHello(player, creature);
             }
 
             // Remove equipment
@@ -991,7 +1029,6 @@ class Kickstarter : public CreatureScript
             if (action == ID_GEMS)
             {
                 ClearGossipMenuFor(player);
-
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Meta", GOSSIP_SENDER_MAIN, ID_GEMS+1);
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Red", GOSSIP_SENDER_MAIN, ID_GEMS+40);
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Blue", GOSSIP_SENDER_MAIN, ID_GEMS+0);
@@ -999,7 +1036,7 @@ class Kickstarter : public CreatureScript
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Purple", GOSSIP_SENDER_MAIN, ID_GEMS+0);
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Green", GOSSIP_SENDER_MAIN, ID_GEMS+0);
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Orange", GOSSIP_SENDER_MAIN, ID_GEMS+0);
-
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_TYPE, creature->GetGUID());
             }
 
@@ -1007,7 +1044,6 @@ class Kickstarter : public CreatureScript
             if (action == ID_GEMS+1)
             {
                 ClearGossipMenuFor(player);
-
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "21 Crit Rating, 3% Crit Damage (2 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+5); // 41285
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "25 Crit Rating, 1% Spell Reflect (1 Red, 1 Yellow, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+6); // 41307
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "25 Spell Power, 2% Intellect (3 Red)", GOSSIP_SENDER_MAIN, ID_GEMS+7); // 41333
@@ -1020,7 +1056,6 @@ class Kickstarter : public CreatureScript
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "21 Crit Rating, 10% Reduced Fear Duration (2 Red, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+14); // 41379
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Next Page", GOSSIP_SENDER_MAIN, ID_GEMS+2);
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS);
-
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
@@ -1028,7 +1063,6 @@ class Kickstarter : public CreatureScript
             if (action == ID_GEMS+2)
             {
                 ClearGossipMenuFor(player);
-
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "32 Stamina, 2% Increased Armor Value (2 Blue, 1 Red)", GOSSIP_SENDER_MAIN, ID_GEMS+15); // 41380
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "42 Attack Power, 10% Reduced Stun Duration", GOSSIP_SENDER_MAIN, ID_GEMS+16); // 41381
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "25 Spell Power, 10% Reduced Stun Duration", GOSSIP_SENDER_MAIN, ID_GEMS+17); // 41382
@@ -1041,7 +1075,6 @@ class Kickstarter : public CreatureScript
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Chance to Increase Attack Speed (1 Red, 1 Yellow, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+24); // 41400
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Next Page", GOSSIP_SENDER_MAIN, ID_GEMS+3);
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS+1);
-
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
@@ -1049,7 +1082,6 @@ class Kickstarter : public CreatureScript
             if (action == ID_GEMS+3)
             {
                 ClearGossipMenuFor(player);
-
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "21 Intellect, Chance to Restore Mana on Spellcast (1 Red, 1 Yellow, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+25); // 41401
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "14 Crit Rating, 1% Spell Reflect (2 Red, 2 Blue, 2 Yellow)", GOSSIP_SENDER_MAIN, ID_GEMS+26); // 25890
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Chance to Increase Spell Cast Speed (More Blue than Yellow", GOSSIP_SENDER_MAIN, ID_GEMS+27); // 25893
@@ -1062,7 +1094,6 @@ class Kickstarter : public CreatureScript
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "12 Intellect, Chance to Restore Mana on Spellcast (2 Red, 2 Yellow, 2 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+34); // 25901
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Next Page", GOSSIP_SENDER_MAIN, ID_GEMS+4);
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS+2);
-
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
@@ -1070,14 +1101,12 @@ class Kickstarter : public CreatureScript
             if (action == ID_GEMS+4)
             {
                 ClearGossipMenuFor(player);
-
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "12 Agility, 3% Increased Crit Damage (2 Red, 2 Yellow, 2 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+35); // 32409
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Chance to Increase Attack Speed (2 Red, 2 Blue, 2 Yellow)", GOSSIP_SENDER_MAIN, ID_GEMS+36); // 32410
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "12 Crit Rating, 3% Increased Crit Damage (2 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+37); // 34220
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "12 Defense Rating, 5% Shield Block Value (2 Blue, 1 Yellow)", GOSSIP_SENDER_MAIN, ID_GEMS+38); // 35501
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "14 Spell Power, 2% Intellect (3 Red)", GOSSIP_SENDER_MAIN, ID_GEMS+39); // 35503
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS+3);
-
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
@@ -1330,7 +1359,71 @@ class Kickstarter : public CreatureScript
             if (action == ID_GEMS+40)
             {
                 ClearGossipMenuFor(player);
+                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "20 Strength", GOSSIP_SENDER_MAIN, ID_GEMS+41); // 40111
+                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "20 Agility", GOSSIP_SENDER_MAIN, ID_GEMS+42); // 40112
+                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "23 Spell Power", GOSSIP_SENDER_MAIN, ID_GEMS+43); // 40113
+                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "40 Attack Power", GOSSIP_SENDER_MAIN, ID_GEMS+44); // 40114
+                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "20 Dodge Rating", GOSSIP_SENDER_MAIN, ID_GEMS+45); // 40115
+                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "20 Parry Rating", GOSSIP_SENDER_MAIN, ID_GEMS+46); // 40116
+                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "20 Armor Penetration Rating", GOSSIP_SENDER_MAIN, ID_GEMS+47); // 40117
+                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "20 Expertise Rating", GOSSIP_SENDER_MAIN, ID_GEMS+48); // 40118
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
 
+            // Gems: Red
+            if (action == ID_GEMS+41)
+            {
+                player->AddItem(40111, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Red
+            if (action == ID_GEMS+42)
+            {
+                player->AddItem(40112, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Red
+            if (action == ID_GEMS+43)
+            {
+                player->AddItem(40113, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Red
+            if (action == ID_GEMS+44)
+            {
+                player->AddItem(40114, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Red
+            if (action == ID_GEMS+45)
+            {
+                player->AddItem(40115, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Red
+            if (action == ID_GEMS+46)
+            {
+                player->AddItem(40116, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Red
+            if (action == ID_GEMS+47)
+            {
+                player->AddItem(40117, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Red
+            if (action == ID_GEMS+48)
+            {
+                player->AddItem(40118, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
@@ -1379,10 +1472,9 @@ class Kickstarter : public CreatureScript
             if (action == ID_GLYPHS)
             {
                 ClearGossipMenuFor(player);
-
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Major", GOSSIP_SENDER_MAIN, ID_GLYPHS+1);
                 AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Minor", GOSSIP_SENDER_MAIN, ID_GLYPHS+2);
-
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_TYPE, creature->GetGUID());
             }
 
@@ -1417,6 +1509,7 @@ class Kickstarter : public CreatureScript
                         break;
                 }
 
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GLYPHS);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
@@ -1451,6 +1544,7 @@ class Kickstarter : public CreatureScript
                         break;
                 }
 
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GLYPHS);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
