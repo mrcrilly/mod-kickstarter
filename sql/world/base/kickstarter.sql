@@ -26,13 +26,11 @@ INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry, 'What do you need?');
 DELETE FROM `npc_text` WHERE `ID`=@Entry+1;
 INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+1, 'Which specialization?');
 DELETE FROM `npc_text` WHERE `ID`=@Entry+2;
-INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+2, 'Which color do you need?');
-DELETE FROM `npc_text` WHERE `ID`=@Entry+3;
-INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+3, 'Major or minor?');
+INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+2, 'Which type do you want?');
 DELETE FROM `npc_text` WHERE `ID`=@Entry+4;
-INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+4, 'You need to remove all of your equipment before I help you with this.');
+INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+3, 'You need to remove all of your equipment before I help you with this.');
 DELETE FROM `npc_text` WHERE `ID`=@Entry+5;
-INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+5, 'I\'m afraid this service is only available to those at the maximum level...');
+INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+4, 'I\'m afraid this service is only available to those at the maximum level...');
 
 /*-- Gems
 -- Meta Gems

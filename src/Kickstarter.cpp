@@ -57,7 +57,7 @@ class Kickstarter : public CreatureScript
                         if (player->GetItemByPos(INVENTORY_SLOT_BAG_0, i))
                         {
                             AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Remove all my equipment", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+31);
-                            SendGossipMenuFor(player, TEXT_KICKSTARTER+4, creature->GetGUID());
+                            SendGossipMenuFor(player, TEXT_KICKSTARTER+3, creature->GetGUID());
                             return false;
                         }
                     }
@@ -123,7 +123,7 @@ class Kickstarter : public CreatureScript
                 else
                 {
                     ClearGossipMenuFor(player);
-                    SendGossipMenuFor(player, TEXT_KICKSTARTER+5, creature->GetGUID());
+                    SendGossipMenuFor(player, TEXT_KICKSTARTER+4, creature->GetGUID());
                 }
             }
 
@@ -979,6 +979,14 @@ class Kickstarter : public CreatureScript
             {
                 ClearGossipMenuFor(player);
 
+                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Meta", GOSSIP_SENDER_MAIN, ID_GEMS+1);
+                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Red", GOSSIP_SENDER_MAIN, ID_GEMS+2);
+                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Blue", GOSSIP_SENDER_MAIN, ID_GEMS+3);
+                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Yellow", GOSSIP_SENDER_MAIN, ID_GEMS+4);
+                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Purple", GOSSIP_SENDER_MAIN, ID_GEMS+5);
+                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Green", GOSSIP_SENDER_MAIN, ID_GEMS+6);
+                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Orange", GOSSIP_SENDER_MAIN, ID_GEMS+7);
+
                 SendGossipMenuFor(player, TEXT_KICKSTARTER+2, creature->GetGUID());
             }
 
@@ -987,7 +995,10 @@ class Kickstarter : public CreatureScript
             {
                 ClearGossipMenuFor(player);
 
-                SendGossipMenuFor(player, TEXT_KICKSTARTER+3, creature->GetGUID());
+                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Major", GOSSIP_SENDER_MAIN, ID_GLYPHS+1);
+                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Minor", GOSSIP_SENDER_MAIN, ID_GLYPHS+2);
+
+                SendGossipMenuFor(player, TEXT_KICKSTARTER+2, creature->GetGUID());
             }
 
             // Class spells
