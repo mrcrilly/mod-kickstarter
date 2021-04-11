@@ -8,4 +8,4 @@ This is a module for use with AzerothCore. What it does is adds a single NPC tha
 * Obtain weapon skills such as mail, one-handed swords, polearms etc
 * Obtain mount skills aswell as mounts specific to their faction and race
 
-All of these features are free, but can be given a cost by editing the sql included. Class spells, weapon skills and mounts are not changable You can also change what features will be available to the player. At this time however, mount skills themselves are not changable but you can change the availability of the feature
+All of these features are free to the player. You can also change what features will be available to the player. At this time however, mount skills themselves are not changable but you can change the availability of the feature itself.
