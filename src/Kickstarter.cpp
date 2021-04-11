@@ -2421,7 +2421,7 @@ class Kickstarter : public CreatureScript
                 switch (player->getClass())
                 {
                     case CLASS_DRUID:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+287); // 40922
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Wrath", GOSSIP_SENDER_MAIN, ID_GLYPHS+287); // 40922
                         break;
                     default:
                         break;
@@ -2439,89 +2439,89 @@ class Kickstarter : public CreatureScript
                 switch (player->getClass())
                 {
                     case CLASS_PRIEST:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+287); // 43374
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+288); // 43370
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+289); // 43372
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+290); // 43373
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+291); // 43342
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+292); // 43371
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shadowfiend", GOSSIP_SENDER_MAIN, ID_GLYPHS+287); // 43374
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Levitate", GOSSIP_SENDER_MAIN, ID_GLYPHS+288); // 43370
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shadow Protection", GOSSIP_SENDER_MAIN, ID_GLYPHS+289); // 43372
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shackle Undead", GOSSIP_SENDER_MAIN, ID_GLYPHS+290); // 43373
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Fading", GOSSIP_SENDER_MAIN, ID_GLYPHS+291); // 43342
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Fortitude", GOSSIP_SENDER_MAIN, ID_GLYPHS+292); // 43371
                         break;
                     case CLASS_PALADIN:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+293); // 43369
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+294); // 43365
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+295); // 43368
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+296); // 43366
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+297); // 43367
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+298); // 43340
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of the Wise", GOSSIP_SENDER_MAIN, ID_GLYPHS+293); // 43369
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blessing of Kings", GOSSIP_SENDER_MAIN, ID_GLYPHS+294); // 43365
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Sense Undead", GOSSIP_SENDER_MAIN, ID_GLYPHS+295); // 43368
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blessing of Wisdom", GOSSIP_SENDER_MAIN, ID_GLYPHS+296); // 43366
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Lay on Hands", GOSSIP_SENDER_MAIN, ID_GLYPHS+297); // 43367
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blessing of Might", GOSSIP_SENDER_MAIN, ID_GLYPHS+298); // 43340
                         break;
                     case CLASS_WARRIOR:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+299); // 49084
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+300); // 43400
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+301); // 43398
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+302); // 43396
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+303); // 43399
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+304); // 43397
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+305); // 43395
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Command", GOSSIP_SENDER_MAIN, ID_GLYPHS+299); // 49084
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Enduring Victory", GOSSIP_SENDER_MAIN, ID_GLYPHS+300); // 43400
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Mocking Blow", GOSSIP_SENDER_MAIN, ID_GLYPHS+301); // 43398
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Bloodrage", GOSSIP_SENDER_MAIN, ID_GLYPHS+302); // 43396
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Thunder Clap", GOSSIP_SENDER_MAIN, ID_GLYPHS+303); // 43399
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Charge", GOSSIP_SENDER_MAIN, ID_GLYPHS+304); // 43397
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Battle", GOSSIP_SENDER_MAIN, ID_GLYPHS+305); // 43395
                         break;
                     case CLASS_MAGE:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+306); // 44920
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+307); // 43360
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+308); // 43357
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+309); // 43364
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+310); // 43361
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+311); // 43362
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+312); // 43339
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+313); // 43359
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blast Wave", GOSSIP_SENDER_MAIN, ID_GLYPHS+306); // 44920
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Frost Ward", GOSSIP_SENDER_MAIN, ID_GLYPHS+307); // 43360
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Fire Ward", GOSSIP_SENDER_MAIN, ID_GLYPHS+308); // 43357
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Slow Fall", GOSSIP_SENDER_MAIN, ID_GLYPHS+309); // 43364
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of the Penguin", GOSSIP_SENDER_MAIN, ID_GLYPHS+310); // 43361
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of the Bear Cub", GOSSIP_SENDER_MAIN, ID_GLYPHS+311); // 43362
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Arcane Intellect", GOSSIP_SENDER_MAIN, ID_GLYPHS+312); // 43339
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Frost Armor", GOSSIP_SENDER_MAIN, ID_GLYPHS+313); // 43359
                         break;
                     case CLASS_WARLOCK:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+314); // 43392
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+315); // 43394
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+316); // 43393
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+317); // 43391
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+318); // 43390
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+319); // 43389
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Curse of Exhaustion", GOSSIP_SENDER_MAIN, ID_GLYPHS+314); // 43392
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Souls", GOSSIP_SENDER_MAIN, ID_GLYPHS+315); // 43394
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Enslave Demon", GOSSIP_SENDER_MAIN, ID_GLYPHS+316); // 43393
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Kilrogg", GOSSIP_SENDER_MAIN, ID_GLYPHS+317); // 43391
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Drain Soul", GOSSIP_SENDER_MAIN, ID_GLYPHS+318); // 43390
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Unending Breath", GOSSIP_SENDER_MAIN, ID_GLYPHS+319); // 43389
                         break;
                     case CLASS_SHAMAN:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+320); // 44923
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+321); // 43381
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+322); // 43385
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+323); // 43388
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+324); // 43344
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+325); // 43386
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+326); // 43725
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Thunderstorm", GOSSIP_SENDER_MAIN, ID_GLYPHS+320); // 44923
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Astral Recall", GOSSIP_SENDER_MAIN, ID_GLYPHS+321); // 43381
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Renewed Life", GOSSIP_SENDER_MAIN, ID_GLYPHS+322); // 43385
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Water Walking", GOSSIP_SENDER_MAIN, ID_GLYPHS+323); // 43388
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Water Breathing", GOSSIP_SENDER_MAIN, ID_GLYPHS+324); // 43344
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Water Shield", GOSSIP_SENDER_MAIN, ID_GLYPHS+325); // 43386
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Ghost Wolf", GOSSIP_SENDER_MAIN, ID_GLYPHS+326); // 43725
                         break;
                     case CLASS_DRUID:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+327); // 44922
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+328); // 43334
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+329); // 43331
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+330); // 43316
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+331); // 43674
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+332); // 43332
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+333); // 43335
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Typhoon", GOSSIP_SENDER_MAIN, ID_GLYPHS+327); // 44922
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Challenging Roar", GOSSIP_SENDER_MAIN, ID_GLYPHS+328); // 43334
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Unburdened Rebirth", GOSSIP_SENDER_MAIN, ID_GLYPHS+329); // 43331
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Aquatic Form", GOSSIP_SENDER_MAIN, ID_GLYPHS+330); // 43316
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Dash", GOSSIP_SENDER_MAIN, ID_GLYPHS+331); // 43674
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Thorns", GOSSIP_SENDER_MAIN, ID_GLYPHS+332); // 43332
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of the Wild", GOSSIP_SENDER_MAIN, ID_GLYPHS+333); // 43335
                         break;
                     case CLASS_HUNTER:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+334); // 43355
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+335); // 43351
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+336); // 43338
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+337); // 43354
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+338); // 43356
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+339); // 43350
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of the Pack", GOSSIP_SENDER_MAIN, ID_GLYPHS+334); // 43355
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Feign Death", GOSSIP_SENDER_MAIN, ID_GLYPHS+335); // 43351
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Revive Pet", GOSSIP_SENDER_MAIN, ID_GLYPHS+336); // 43338
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Possessed Strength", GOSSIP_SENDER_MAIN, ID_GLYPHS+337); // 43354
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Scare Beast", GOSSIP_SENDER_MAIN, ID_GLYPHS+338); // 43356
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Mend Pet", GOSSIP_SENDER_MAIN, ID_GLYPHS+339); // 43350
                         break;
                     case CLASS_ROGUE:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+340); // 43378
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+341); // 43376
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+342); // 43380
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+343); // 43377
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+344); // 43379
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+345); // 43343
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Safe Fall", GOSSIP_SENDER_MAIN, ID_GLYPHS+340); // 43378
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Distract", GOSSIP_SENDER_MAIN, ID_GLYPHS+341); // 43376
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Vanish", GOSSIP_SENDER_MAIN, ID_GLYPHS+342); // 43380
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Pick Lock", GOSSIP_SENDER_MAIN, ID_GLYPHS+343); // 43377
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blurred Speed", GOSSIP_SENDER_MAIN, ID_GLYPHS+344); // 43379
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Pick Pocket", GOSSIP_SENDER_MAIN, ID_GLYPHS+345); // 43343
                         break;
                     case CLASS_DEATH_KNIGHT:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+346); // 43535
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+347); // 43539
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+348); // 43544
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+349); // 43671
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+350); // 43672
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+351); // 43673
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blood Tap", GOSSIP_SENDER_MAIN, ID_GLYPHS+346); // 43535
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Death's Embrace", GOSSIP_SENDER_MAIN, ID_GLYPHS+347); // 43539
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Horn of Winter", GOSSIP_SENDER_MAIN, ID_GLYPHS+348); // 43544
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Corpse Explosion", GOSSIP_SENDER_MAIN, ID_GLYPHS+349); // 43671
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Pestilence", GOSSIP_SENDER_MAIN, ID_GLYPHS+350); // 43672
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Raise Dead", GOSSIP_SENDER_MAIN, ID_GLYPHS+351); // 43673
                         break;
                     default:
                         break;
