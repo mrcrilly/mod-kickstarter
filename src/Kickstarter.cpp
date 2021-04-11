@@ -2020,7 +2020,7 @@ class Kickstarter : public CreatureScript
             {
                 ClearGossipMenuFor(player);
                 AddGossipItemFor(player, GOSSIP_ICON_TALK, "Major", GOSSIP_SENDER_MAIN, ID_GLYPHS+1);
-                AddGossipItemFor(player, GOSSIP_ICON_TALK, "Minor", GOSSIP_SENDER_MAIN, ID_GLYPHS+2);
+                AddGossipItemFor(player, GOSSIP_ICON_TALK, "Minor", GOSSIP_SENDER_MAIN, ID_GLYPHS+5);
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_TYPE, creature->GetGUID());
             }
