@@ -1034,8 +1034,8 @@ class Kickstarter : public CreatureScript
                 AddGossipItemFor(player, GOSSIP_ICON_TALK, "Blue", GOSSIP_SENDER_MAIN, ID_GEMS+49);
                 AddGossipItemFor(player, GOSSIP_ICON_TALK, "Yellow", GOSSIP_SENDER_MAIN, ID_GEMS+54);
                 AddGossipItemFor(player, GOSSIP_ICON_TALK, "Purple", GOSSIP_SENDER_MAIN, ID_GEMS+61);
-                AddGossipItemFor(player, GOSSIP_ICON_TALK, "Green", GOSSIP_SENDER_MAIN, ID_GEMS+0);
-                AddGossipItemFor(player, GOSSIP_ICON_TALK, "Orange", GOSSIP_SENDER_MAIN, ID_GEMS+0);
+                AddGossipItemFor(player, GOSSIP_ICON_TALK, "Green", GOSSIP_SENDER_MAIN, ID_GEMS+76);
+                AddGossipItemFor(player, GOSSIP_ICON_TALK, "Orange", GOSSIP_SENDER_MAIN, ID_GEMS+97);
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_TYPE, creature->GetGUID());
             }
@@ -1527,26 +1527,115 @@ class Kickstarter : public CreatureScript
             if (action == ID_GEMS+61)
             {
                 ClearGossipMenuFor(player);
-                //AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+62); // 
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+63); // 40129
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+64); // 40130
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+65); // 40131
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+66); // 40132
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+67); // 40133
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+68); // 40134
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+69); // 40135
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+70); // 40136
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+71); // 40137
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+72); // 40138
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Next Page", GOSSIP_SENDER_MAIN, ID_GEMS+62);
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            /*// Gems: Green
-            if (action == ID_GEMS+0)
+            // Gems: Purple
+            if (action == ID_GEMS+62)
             {
                 ClearGossipMenuFor(player);
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+73); // 40139
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+74); // 40140
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+75); // 40141
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS+61);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
 
+            // Gems: Green
+            if (action == ID_GEMS+76)
+            {
+                ClearGossipMenuFor(player);
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+78); // 40164
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+79); // 40165
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+80); // 40166
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+81); // 40167
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+82); // 40168
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+83); // 40169
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+84); // 40170
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+85); // 40171
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+86); // 40172
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+87); // 40173
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Next Page", GOSSIP_SENDER_MAIN, ID_GEMS+77);
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+77)
+            {
+                ClearGossipMenuFor(player);
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+88); // 40174
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+89); // 40175
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+90); // 40176
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+91); // 40177
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+92); // 40178
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+93); // 40179
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+94); // 40180
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+95); // 40181
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+96); // 40182
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS+76);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Gems: Orange
-            if (action == ID_GEMS+0)
+            if (action == ID_GEMS+97)
             {
                 ClearGossipMenuFor(player);
-
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+100); // 40142
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+101); // 40143
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+102); // 40144
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+103); // 40145
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+104); // 40146
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+105); // 40147
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+106); // 40148
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+107); // 40149
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+108); // 40150
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+109); // 40151
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Next Page", GOSSIP_SENDER_MAIN, ID_GEMS+98);
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
-            }*/
+            }
+
+            // Gems: Orange
+            if (action == ID_GEMS+98)
+            {
+                ClearGossipMenuFor(player);
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+110); // 40152
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+111); // 40153
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+112); // 40154
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+113); // 40155
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+114); // 40156
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+115); // 40157
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+116); // 40158
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+117); // 40159
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+118); // 40160
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+119); // 40161
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Next Page", GOSSIP_SENDER_MAIN, ID_GEMS+99);
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS+97);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Orange
+            if (action == ID_GEMS+99)
+            {
+                ClearGossipMenuFor(player);
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+120); // 40162
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+121); // 40163
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS+98);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
 
             // Glyphs
             if (action == ID_GLYPHS)
