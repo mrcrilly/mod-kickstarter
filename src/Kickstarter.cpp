@@ -56,6 +56,7 @@ class Kickstarter : public CreatureScript
                     {
                         if (player->GetItemByPos(INVENTORY_SLOT_BAG_0, i))
                         {
+                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Remove all my equipment", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+31);
                             SendGossipMenuFor(player, TEXT_KICKSTARTER+4, creature->GetGUID());
                             return false;
                         }
@@ -956,6 +957,20 @@ class Kickstarter : public CreatureScript
                 player->EquipNewItem(EQUIPMENT_SLOT_BACK, 43924, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_MAINHAND, 43923, true);
                 player->EquipNewItem(EQUIPMENT_SLOT_OFFHAND, 42786, true);
+                player->CLOSE_GOSSIP_MENU();
+            }
+
+            // Remove equipment
+            if (action == ID_EQUIPMENT+31)
+            {
+                for (int i = EQUIPMENT_SLOT_START; i != EQUIPMENT_SLOT_END; ++i)
+                {
+                    if (player->GetItemByPos(INVENTORY_SLOT_BAG_0, i))
+                    {
+                        player->RemoveItem(INVENTORY_SLOT_BAG_0, i, true);
+                    }
+                }
+
                 player->CLOSE_GOSSIP_MENU();
             }
 
