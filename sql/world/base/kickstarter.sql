@@ -33,44 +33,6 @@ DELETE FROM `npc_text` WHERE `ID`=@Entry+4;
 INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+4, 'I\'m afraid this service is only available to those at the maximum level...');
 
 /*-- Gems
--- Meta Gems
-UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN (41285, 41307, 41333, 41335, 41339, 41375, 41376, 41377, 41378, 41379, 41380, 41381, 41382, 41385, 41389, 41395, 41396, 41397, 41398, 41400, 41401, 25890, 25893, 25894, 25895, 25896, 25897, 25898, 25899, 25901, 32409, 32410, 34220, 35501, 35503);
-DELETE FROM `npc_vendor` WHERE `entry`=@Entry+25;
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41285);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41307);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41333);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41335);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41339);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41375);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41376);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41377);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41378);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41379);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41380);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41381);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41382);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41385);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41389);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41395);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41396);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41397);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41398);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41400);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 41401);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 25890);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 25893);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 25894);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 25895);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 25896);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 25897);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 25898);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 25899);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 25901);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 32409);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 32410);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 34220);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 35501);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+25, 35503);
 -- Red Gems
 UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN (40111, 40112, 40113, 40114, 40115, 40116, 40117, 40118);
 DELETE FROM `npc_vendor` WHERE `entry`=@Entry+26;
