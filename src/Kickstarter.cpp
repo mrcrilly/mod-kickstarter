@@ -1648,16 +1648,16 @@ class Kickstarter : public CreatureScript
             if (action == ID_GEMS+76)
             {
                 ClearGossipMenuFor(player);
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+78); // 40164
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+79); // 40165
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+80); // 40166
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+81); // 40167
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+82); // 40168
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+83); // 40169
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+84); // 40170
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+85); // 40171
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+86); // 40172
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+87); // 40173
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Intellect, 15 Stamina", GOSSIP_SENDER_MAIN, ID_GEMS+78); // 40164
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Critical Strike Rating, 15 Stamina", GOSSIP_SENDER_MAIN, ID_GEMS+79); // 40165
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Hit Rating, 15 Stamina", GOSSIP_SENDER_MAIN, ID_GEMS+80); // 40166
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Defense Rating, 15 Stamina", GOSSIP_SENDER_MAIN, ID_GEMS+81); // 40167
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Resilience Rating, 15 Stamina", GOSSIP_SENDER_MAIN, ID_GEMS+82); // 40168
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Haste Rating, 15 Stamina", GOSSIP_SENDER_MAIN, ID_GEMS+83); // 40169
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Intellect, 10 Spirit", GOSSIP_SENDER_MAIN, ID_GEMS+84); // 40170
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Critical Strike Rating, 10 Spirit", GOSSIP_SENDER_MAIN, ID_GEMS+85); // 40171
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Hit Rating, 10 Spirit", GOSSIP_SENDER_MAIN, ID_GEMS+86); // 40172
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Resilience Rating, 10 Spirit", GOSSIP_SENDER_MAIN, ID_GEMS+87); // 40173
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Next Page", GOSSIP_SENDER_MAIN, ID_GEMS+77);
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
@@ -1667,16 +1667,149 @@ class Kickstarter : public CreatureScript
             if (action == ID_GEMS+77)
             {
                 ClearGossipMenuFor(player);
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+88); // 40174
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+89); // 40175
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+90); // 40176
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+91); // 40177
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+92); // 40178
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+93); // 40179
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+94); // 40180
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+95); // 40181
-                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+96); // 40182
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Haste Rating, 10 Spirit", GOSSIP_SENDER_MAIN, ID_GEMS+88); // 40174
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Intellect, 5 Mana per 5 Seconds", GOSSIP_SENDER_MAIN, ID_GEMS+89); // 40175
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Critical Strike Rating, 5 Mana per 5 Seconds", GOSSIP_SENDER_MAIN, ID_GEMS+90); // 40176
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Hit Rating, 5 Mana per 5 Seconds", GOSSIP_SENDER_MAIN, ID_GEMS+91); // 40177
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Resilience Rating, 5 Mana per 5 Seconds", GOSSIP_SENDER_MAIN, ID_GEMS+92); // 40178
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Haste Rating, 5 Mana per 5 Seconds", GOSSIP_SENDER_MAIN, ID_GEMS+93); // 40179
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Critical Strike Rating, 13 Spell Penetration", GOSSIP_SENDER_MAIN, ID_GEMS+94); // 40180
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Hit Rating, 13 Spell Penetration", GOSSIP_SENDER_MAIN, ID_GEMS+95); // 40181
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Haste Rating, 13 Spell Penetration", GOSSIP_SENDER_MAIN, ID_GEMS+96); // 40182
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS+76);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+78)
+            {
+                player->AddItem(40164, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+79)
+            {
+                player->AddItem(40165, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+80)
+            {
+                player->AddItem(40166, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+81)
+            {
+                player->AddItem(40167, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+82)
+            {
+                player->AddItem(40168, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+83)
+            {
+                player->AddItem(40169, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+84)
+            {
+                player->AddItem(40170, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+85)
+            {
+                player->AddItem(40171, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+86)
+            {
+                player->AddItem(40172, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+87)
+            {
+                player->AddItem(40173, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+88)
+            {
+                player->AddItem(40174, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+89)
+            {
+                player->AddItem(40175, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+90)
+            {
+                player->AddItem(40176, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+91)
+            {
+                player->AddItem(40177, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+92)
+            {
+                player->AddItem(40178, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+93)
+            {
+                player->AddItem(40179, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+94)
+            {
+                player->AddItem(40180, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+95)
+            {
+                player->AddItem(40181, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Green
+            if (action == ID_GEMS+96)
+            {
+                player->AddItem(40182, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
