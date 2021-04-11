@@ -7,9 +7,9 @@
 #define ID_EQUIPMENT 100
 #define ID_GEMS 200
 #define ID_GLYPHS 400
-#define ID_SPELLS 500
-#define ID_PROFICIENCY 600
-#define ID_MOUNTS 700
+#define ID_SPELLS 800
+#define ID_PROFICIENCY 900
+#define ID_MOUNTS 1000
 
 enum PROFICIENCY
 {

@@ -2033,34 +2033,135 @@ class Kickstarter : public CreatureScript
                 switch (player->getClass())
                 {
                     case CLASS_PRIEST:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+6); // 42404
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+7); // 42414
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+8); // 42396
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+9); // 42403
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+10); // 45753
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+11); // 45755
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+12); // 45756
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+13); // 45757
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+14); // 45758
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+15); // 45760
                         break;
                     case CLASS_PALADIN:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+16); // 41107
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+17); // 41101
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+18); // 43867
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+19); // 43868
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+20); // 43869
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+21); // 41097
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+22); // 45741
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+23); // 45742
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+24); // 45743
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+25); // 45744
                         break;
                     case CLASS_WARRIOR:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+26); // 43419
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+27); // 43415
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+28); // 45790
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+29); // 45792
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+30); // 45793
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+31); // 45794
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+32); // 45795
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+33); // 45797
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+34); // 43412
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+35); // 43421
                         break;
                     case CLASS_MAGE:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+36); // 44684
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+37); // 42748
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+38); // 42745
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+39); // 42751
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+40); // 44955
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+41); // 42754
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+42); // 50045
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+43); // 42736
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+44); // 45736
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+45); // 45737
                         break;
                     case CLASS_WARLOCK:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+46); // 42459
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+47); // 42472
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+48); // 42457
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+49); // 42454
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+50); // 42463
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+51); // 45779
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+52); // 45780
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+53); // 45781
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+54); // 45782
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+55); // 45783
                         break;
                     case CLASS_SHAMAN:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+56); // 41529
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+57); // 41524
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+58); // 41552
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+59); // 41517
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+60); // 41538
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+61); // 41539
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+62); // 45770
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+63); // 45771
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+64); // 45772
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+65); // 45775
                         break;
                     case CLASS_DRUID:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+66); // 40915
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+67); // 44928
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+68); // 40921
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+69); // 40900
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+70); // 40906
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+71); // 40908
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+72); // 40920
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+73); // 45601
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+74); // 45602
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+75); // 45603
                         break;
                     case CLASS_HUNTER:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+76); // 42913
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+77); // 42914
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+78); // 42902
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+79); // 42915
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+80); // 42916
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+81); // 42917
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+82); // 45625
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+83); // 45731
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+84); // 45732
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+85); // 45733
                         break;
                     case CLASS_ROGUE:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+86); // 42971
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+87); // 42959
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+88); // 42954
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+89); // 45761
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+90); // 45762
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+91); // 45764
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+92); // 45766
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+93); // 45767
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+94); // 45768
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+95); // 45769
                         break;
                     case CLASS_DEATH_KNIGHT:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+96); // 43533
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+97); // 43534
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+98); // 43536
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+99); // 43537
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+100); // 43538
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+101); // 43541
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+102); // 43542
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+103); // 43543
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+104); // 43545
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+105); // 43546
                         break;
                     default:
                         break;
                 }
 
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Next Page", GOSSIP_SENDER_MAIN, ID_GLYPHS+2);
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GLYPHS);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Glyphs: Minor
+            // Glyphs: Major
             if (action == ID_GLYPHS+2)
             {
                 ClearGossipMenuFor(player);
@@ -2068,24 +2169,359 @@ class Kickstarter : public CreatureScript
                 switch (player->getClass())
                 {
                     case CLASS_PRIEST:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+106); // 42405
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+107); // 42409
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+108); // 42417
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+109); // 42399
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+110); // 42400
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+111); // 42401
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+112); // 42407
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+113); // 42412
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+114); // 42397
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+115); // 42415
                         break;
                     case CLASS_PALADIN:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+116); // 45745
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+117); // 45746
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+118); // 45747
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+119); // 41109
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+120); // 41104
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+121); // 41110
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+122); // 41102
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+123); // 41094
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+124); // 41098
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+125); // 41099
                         break;
                     case CLASS_WARRIOR:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+126); // 43425
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+127); // 43432
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+128); // 43428
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+129); // 43416
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+130); // 43414
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+131); // 43426
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+132); // 43420
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+133); // 43431
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+134); // 43424
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+135); // 43422
                         break;
                     case CLASS_MAGE:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+136); // 45738
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+137); // 45739
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+138); // 45740
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+139); // 42749
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+140); // 42744
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+141); // 42750
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+142); // 42737
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+143); // 42738
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+144); // 42746
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+145); // 42747
                         break;
                     case CLASS_WARLOCK:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+146); // 45785
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+147); // 45789
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+148); // 42460
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+149); // 42469
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+150); // 42453
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+151); // 42471
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+152); // 42468
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+153); // 42466
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+154); // 42470
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+155); // 42461
                         break;
                     case CLASS_SHAMAN:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+156); // 45776
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+157); // 45777
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+158); // 45778
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+159); // 41518
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+160); // 41527
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+161); // 41542
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+162); // 41533
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+163); // 41535
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+164); // 41541
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+165); // 41547
                         break;
                     case CLASS_DRUID:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+166); // 45604
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+167); // 45622
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+168); // 45623
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+169); // 40896
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+170); // 40903
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+171); // 40901
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+172); // 40902
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+173); // 40909
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+174); // 40916
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+175); // 40919
                         break;
                     case CLASS_HUNTER:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+176); // 45734
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+177); // 45735
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+178); // 42899
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+179); // 42906
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+180); // 42911
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+181); // 42897
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+182); // 42903
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+183); // 42904
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+184); // 42905
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+185); // 42910
                         break;
                     case CLASS_ROGUE:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+186); // 45908
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+187); // 42957
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+188); // 42967
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+189); // 42968
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+190); // 42958
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+191); // 42965
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+192); // 42969
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+193); // 42955
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+194); // 42963
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+195); // 42962
                         break;
                     case CLASS_DEATH_KNIGHT:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+196); // 43547
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+197); // 43548
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+198); // 43549
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+199); // 43550
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+200); // 43551
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+201); // 43552
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+202); // 43553
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+203); // 43554
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+204); // 43825
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+205); // 43826
+                        break;
+                    default:
+                        break;
+                }
+
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Next Page", GOSSIP_SENDER_MAIN, ID_GLYPHS+3);
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GLYPHS+1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major
+            if (action == ID_GLYPHS+3)
+            {
+                ClearGossipMenuFor(player);
+
+                switch (player->getClass())
+                {
+                    case CLASS_PRIEST:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+206); // 42410
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+207); // 42402
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+208); // 42406
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+209); // 42398
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+210); // 42411
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+211); // 42408
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+212); // 42416
+                        break;
+                    case CLASS_PALADIN:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+213); // 41103
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+214); // 41105
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+215); // 41100
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+216); // 41096
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+217); // 41108
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+218); // 41095
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+219); // 41092
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+220); // 41106
+                        break;
+                    case CLASS_WARRIOR:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+221); // 43427
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+222); // 43429
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+223); // 43417
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+224); // 43430
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+225); // 43413
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+226); // 43423
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+227); // 43418
+                        break;
+                    case CLASS_MAGE:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+228); // 42753
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+229); // 42734
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+230); // 42741
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+231); // 42743
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+232); // 42735
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+233); // 42752
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+234); // 42740
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+235); // 42742
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+236); // 42739
+                        break;
+                    case CLASS_WARLOCK:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+237); // 42455
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+238); // 42462
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+239); // 42473
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+240); // 50077
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+241); // 42456
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+242); // 42458
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+243); // 42465
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+244); // 42464
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+245); // 42467
+                        break;
+                    case CLASS_SHAMAN:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+246); // 41530
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+247); // 41531
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+248); // 41532
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+249); // 41540
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+250); // 41537
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+251); // 41526
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+252); // 41534
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+253); // 41536
+                        break;
+                    case CLASS_DRUID:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+254); // 46372
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+255); // 48720
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+256); // 40912
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+257); // 40899
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+258); // 40923
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+259); // 40897
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+260); // 40914
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+261); // 40924
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+262); // 40913
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+263); // 50125
+                        AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Next Page", GOSSIP_SENDER_MAIN, ID_GLYPHS+4);
+                        break;
+                    case CLASS_HUNTER:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+264); // 42908
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+265); // 42901
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+266); // 42909
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+267); // 42898
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+268); // 42907
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+269); // 42900
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+270); // 42912
+                        break;
+                    case CLASS_ROGUE:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+271); // 42964
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+272); // 42970
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+273); // 42973
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+274); // 42974
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+275); // 42960
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+276); // 42966
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+277); // 42956
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+278); // 42961
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+279); // 42972
+                        break;
+                    case CLASS_DEATH_KNIGHT:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+280); // 43827
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+281); // 45799
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+282); // 45800
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+283); // 45803
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+284); // 45804
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+285); // 45805
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+286); // 45806
+                        break;
+                    default:
+                        break;
+                }
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GLYPHS+2);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major
+            if (action == ID_GLYPHS+4)
+            {
+                ClearGossipMenuFor(player);
+
+                switch (player->getClass())
+                {
+                    case CLASS_DRUID:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+287); // 40922
+                        break;
+                    default:
+                        break;
+                }
+
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GLYPHS+3);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor
+            if (action == ID_GLYPHS+5)
+            {
+                ClearGossipMenuFor(player);
+
+                switch (player->getClass())
+                {
+                    case CLASS_PRIEST:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+287); // 43374
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+288); // 43370
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+289); // 43372
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+290); // 43373
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+291); // 43342
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+292); // 43371
+                        break;
+                    case CLASS_PALADIN:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+293); // 43369
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+294); // 43365
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+295); // 43368
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+296); // 43366
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+297); // 43367
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+298); // 43340
+                        break;
+                    case CLASS_WARRIOR:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+299); // 49084
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+300); // 43400
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+301); // 43398
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+302); // 43396
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+303); // 43399
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+304); // 43397
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+305); // 43395
+                        break;
+                    case CLASS_MAGE:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+306); // 44920
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+307); // 43360
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+308); // 43357
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+309); // 43364
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+310); // 43361
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+311); // 43362
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+312); // 43339
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+313); // 43359
+                        break;
+                    case CLASS_WARLOCK:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+314); // 43392
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+315); // 43394
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+316); // 43393
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+317); // 43391
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+318); // 43390
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+319); // 43389
+                        break;
+                    case CLASS_SHAMAN:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+320); // 44923
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+321); // 43381
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+322); // 43385
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+323); // 43388
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+324); // 43344
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+325); // 43386
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+326); // 43725
+                        break;
+                    case CLASS_DRUID:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+327); // 44922
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+328); // 43334
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+329); // 43331
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+330); // 43316
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+331); // 43674
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+332); // 43332
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+333); // 43335
+                        break;
+                    case CLASS_HUNTER:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+334); // 43355
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+335); // 43351
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+336); // 43338
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+337); // 43354
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+338); // 43356
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+339); // 43350
+                        break;
+                    case CLASS_ROGUE:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+340); // 43378
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+341); // 43376
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+342); // 43380
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+343); // 43377
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+344); // 43379
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+345); // 43343
+                        break;
+                    case CLASS_DEATH_KNIGHT:
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+346); // 43535
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+347); // 43539
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+348); // 43544
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+349); // 43671
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+350); // 43672
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+351); // 43673
                         break;
                     default:
                         break;
