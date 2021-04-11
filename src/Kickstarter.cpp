@@ -16,13 +16,13 @@ class Kickstarter : public CreatureScript
             ClearGossipMenuFor(player);
 
             if (sConfigMgr->GetBoolDefault("Kickstarter.Equipment", false))
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "I want some equipment", GOSSIP_SENDER_MAIN, ID_EQUIPMENT);
+                AddGossipItemFor(player, GOSSIP_ICON_TALK, "I want some equipment", GOSSIP_SENDER_MAIN, ID_EQUIPMENT);
 
             if (sConfigMgr->GetBoolDefault("Kickstarter.Gems", false))
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "I want some gems", GOSSIP_SENDER_MAIN, ID_GEMS);
+                AddGossipItemFor(player, GOSSIP_ICON_TALK, "I want some gems", GOSSIP_SENDER_MAIN, ID_GEMS);
 
             if (sConfigMgr->GetBoolDefault("Kickstarter.Glyphs", false))
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "I want some glyphs", GOSSIP_SENDER_MAIN, ID_GLYPHS);
+                AddGossipItemFor(player, GOSSIP_ICON_TALK, "I want some glyphs", GOSSIP_SENDER_MAIN, ID_GLYPHS);
 
             if (sConfigMgr->GetBoolDefault("Kickstarter.Spells", false))
                 AddGossipItemFor(player, GOSSIP_ICON_TRAINER, "I want spells specific to my class", GOSSIP_SENDER_MAIN, ID_SPELLS);
@@ -61,7 +61,7 @@ class Kickstarter : public CreatureScript
                     {
                         if (player->GetItemByPos(INVENTORY_SLOT_BAG_0, i))
                         {
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Remove all my equipment", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+31);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Remove all my equipment", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+31);
                             AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, 1);
                             SendGossipMenuFor(player, TEXT_KICKSTARTER_EQUIPMENT, creature->GetGUID());
                             return false;
@@ -71,54 +71,54 @@ class Kickstarter : public CreatureScript
                     switch (player->getClass())
                     {
                         case CLASS_PRIEST:
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Discipline", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+1);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Holy", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+2);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Shadow", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+3);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Discipline", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+1);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Holy", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+2);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Shadow", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+3);
                             break;
                         case CLASS_PALADIN:
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Holy", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+4);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Protection", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+5);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Retribution", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+6);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Holy", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+4);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Protection", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+5);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Retribution", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+6);
                             break;
                         case CLASS_WARRIOR:
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Arms", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+7);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Fury", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+8);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Protection", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+9);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Arms", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+7);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Fury", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+8);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Protection", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+9);
                             break;
                         case CLASS_MAGE:
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Arcane", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+10);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Fire", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+11);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Frost", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+12);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Arcane", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+10);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Fire", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+11);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Frost", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+12);
                             break;
                         case CLASS_WARLOCK:
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Affliction", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+13);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Demonology", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+14);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Destruction", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+15);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Affliction", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+13);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Demonology", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+14);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Destruction", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+15);
                             break;
                         case CLASS_SHAMAN:
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Elemental", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+16);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Enhancement", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+17);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Restoration", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+18);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Elemental", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+16);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Enhancement", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+17);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Restoration", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+18);
                             break;
                         case CLASS_DRUID:
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Balance", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+19);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Feral Combat", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+20);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Restoration", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+21);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Balance", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+19);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Feral Combat", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+20);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Restoration", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+21);
                             break;
                         case CLASS_HUNTER:
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Beast Mastery", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+22);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Marksmanship", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+23);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Survival", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+24);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Beast Mastery", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+22);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Marksmanship", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+23);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Survival", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+24);
                             break;
                         case CLASS_ROGUE:
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Assassination", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+25);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Combat", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+26);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Subtlety", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+27);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Assassination", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+25);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Combat", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+26);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Subtlety", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+27);
                             break;
                         case CLASS_DEATH_KNIGHT:
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Blood", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+28);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Frost", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+29);
-                            AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Unholy", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+30);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Blood", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+28);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Frost", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+29);
+                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Unholy", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+30);
                             break;
                         default:
                             break;
@@ -1029,13 +1029,13 @@ class Kickstarter : public CreatureScript
             if (action == ID_GEMS)
             {
                 ClearGossipMenuFor(player);
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Meta", GOSSIP_SENDER_MAIN, ID_GEMS+1);
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Red", GOSSIP_SENDER_MAIN, ID_GEMS+40);
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Blue", GOSSIP_SENDER_MAIN, ID_GEMS+0);
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Yellow", GOSSIP_SENDER_MAIN, ID_GEMS+0);
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Purple", GOSSIP_SENDER_MAIN, ID_GEMS+0);
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Green", GOSSIP_SENDER_MAIN, ID_GEMS+0);
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Orange", GOSSIP_SENDER_MAIN, ID_GEMS+0);
+                AddGossipItemFor(player, GOSSIP_ICON_TALK, "Meta", GOSSIP_SENDER_MAIN, ID_GEMS+1);
+                AddGossipItemFor(player, GOSSIP_ICON_TALK, "Red", GOSSIP_SENDER_MAIN, ID_GEMS+40);
+                AddGossipItemFor(player, GOSSIP_ICON_TALK, "Blue", GOSSIP_SENDER_MAIN, ID_GEMS+49);
+                AddGossipItemFor(player, GOSSIP_ICON_TALK, "Yellow", GOSSIP_SENDER_MAIN, ID_GEMS+54);
+                AddGossipItemFor(player, GOSSIP_ICON_TALK, "Purple", GOSSIP_SENDER_MAIN, ID_GEMS+61);
+                AddGossipItemFor(player, GOSSIP_ICON_TALK, "Green", GOSSIP_SENDER_MAIN, ID_GEMS+0);
+                AddGossipItemFor(player, GOSSIP_ICON_TALK, "Orange", GOSSIP_SENDER_MAIN, ID_GEMS+0);
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_TYPE, creature->GetGUID());
             }
@@ -1044,16 +1044,16 @@ class Kickstarter : public CreatureScript
             if (action == ID_GEMS+1)
             {
                 ClearGossipMenuFor(player);
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "21 Crit Rating, 3% Crit Damage (2 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+5); // 41285
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "25 Crit Rating, 1% Spell Reflect (1 Red, 1 Yellow, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+6); // 41307
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "25 Spell Power, 2% Intellect (3 Red)", GOSSIP_SENDER_MAIN, ID_GEMS+7); // 41333
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "21 Crit Rating, 10% Reduced Snare/Root Duration (2 Red, 1 Yellow)", GOSSIP_SENDER_MAIN, ID_GEMS+8); // 41335
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "42 Attack Power, Minor Run Speed (2 Yellow, 1 Red)", GOSSIP_SENDER_MAIN, ID_GEMS+9); // 41339
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "25 Spell Power, Minor Run Speed (1 Red, 1 Blue, 1 Yellow)", GOSSIP_SENDER_MAIN, ID_GEMS+10); // 41375
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "11  Mana 5 Sec, 3% Healing Crit (2 Red)", GOSSIP_SENDER_MAIN, ID_GEMS+11); // 41376
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "32 Stamina, 2% Reduced Spell Damage", GOSSIP_SENDER_MAIN, ID_GEMS+12); // 41377
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "25 Spell Power, 10% Reduced Silence Duration (2 Yellow, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+13); // 41378
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "21 Crit Rating, 10% Reduced Fear Duration (2 Red, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+14); // 41379
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "21 Crit Rating, 3% Crit Damage (2 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+5); // 41285
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "25 Crit Rating, 1% Spell Reflect (1 Red, 1 Yellow, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+6); // 41307
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "25 Spell Power, 2% Intellect (3 Red)", GOSSIP_SENDER_MAIN, ID_GEMS+7); // 41333
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "21 Crit Rating, 10% Reduced Snare/Root Duration (2 Red, 1 Yellow)", GOSSIP_SENDER_MAIN, ID_GEMS+8); // 41335
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "42 Attack Power, Minor Run Speed (2 Yellow, 1 Red)", GOSSIP_SENDER_MAIN, ID_GEMS+9); // 41339
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "25 Spell Power, Minor Run Speed (1 Red, 1 Blue, 1 Yellow)", GOSSIP_SENDER_MAIN, ID_GEMS+10); // 41375
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "11  Mana 5 Sec, 3% Healing Crit (2 Red)", GOSSIP_SENDER_MAIN, ID_GEMS+11); // 41376
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "32 Stamina, 2% Reduced Spell Damage", GOSSIP_SENDER_MAIN, ID_GEMS+12); // 41377
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "25 Spell Power, 10% Reduced Silence Duration (2 Yellow, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+13); // 41378
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "21 Crit Rating, 10% Reduced Fear Duration (2 Red, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+14); // 41379
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Next Page", GOSSIP_SENDER_MAIN, ID_GEMS+2);
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
@@ -1063,16 +1063,16 @@ class Kickstarter : public CreatureScript
             if (action == ID_GEMS+2)
             {
                 ClearGossipMenuFor(player);
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "32 Stamina, 2% Increased Armor Value (2 Blue, 1 Red)", GOSSIP_SENDER_MAIN, ID_GEMS+15); // 41380
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "42 Attack Power, 10% Reduced Stun Duration", GOSSIP_SENDER_MAIN, ID_GEMS+16); // 41381
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "25 Spell Power, 10% Reduced Stun Duration", GOSSIP_SENDER_MAIN, ID_GEMS+17); // 41382
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "42 Attack Power, Sometimes Heal on Crit (2 Blue, 1 Red)", GOSSIP_SENDER_MAIN, ID_GEMS+18); // 41385
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "21 Crit Rating, 2% Mana (2 Red, 1 Yellow)", GOSSIP_SENDER_MAIN, ID_GEMS+19); // 41389
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "25 Spell Power, 2% Reduced Threat (2 Red, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+20); // 41395
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "21 Defense Rating, 5% Shield Block Value (2 Red, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+21); // 41396
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "32 Stamina, 10% Reduced Stun Duration (3 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+22); // 41397
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "21 Agility, 3% Crit Damage", GOSSIP_SENDER_MAIN, ID_GEMS+23); // 41398
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Chance to Increase Attack Speed (1 Red, 1 Yellow, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+24); // 41400
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "32 Stamina, 2% Increased Armor Value (2 Blue, 1 Red)", GOSSIP_SENDER_MAIN, ID_GEMS+15); // 41380
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "42 Attack Power, 10% Reduced Stun Duration", GOSSIP_SENDER_MAIN, ID_GEMS+16); // 41381
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "25 Spell Power, 10% Reduced Stun Duration", GOSSIP_SENDER_MAIN, ID_GEMS+17); // 41382
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "42 Attack Power, Sometimes Heal on Crit (2 Blue, 1 Red)", GOSSIP_SENDER_MAIN, ID_GEMS+18); // 41385
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "21 Crit Rating, 2% Mana (2 Red, 1 Yellow)", GOSSIP_SENDER_MAIN, ID_GEMS+19); // 41389
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "25 Spell Power, 2% Reduced Threat (2 Red, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+20); // 41395
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "21 Defense Rating, 5% Shield Block Value (2 Red, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+21); // 41396
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "32 Stamina, 10% Reduced Stun Duration (3 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+22); // 41397
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "21 Agility, 3% Crit Damage", GOSSIP_SENDER_MAIN, ID_GEMS+23); // 41398
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Chance to Increase Attack Speed (1 Red, 1 Yellow, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+24); // 41400
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Next Page", GOSSIP_SENDER_MAIN, ID_GEMS+3);
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS+1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
@@ -1082,16 +1082,16 @@ class Kickstarter : public CreatureScript
             if (action == ID_GEMS+3)
             {
                 ClearGossipMenuFor(player);
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "21 Intellect, Chance to Restore Mana on Spellcast (1 Red, 1 Yellow, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+25); // 41401
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "14 Crit Rating, 1% Spell Reflect (2 Red, 2 Blue, 2 Yellow)", GOSSIP_SENDER_MAIN, ID_GEMS+26); // 25890
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Chance to Increase Spell Cast Speed (More Blue than Yellow", GOSSIP_SENDER_MAIN, ID_GEMS+27); // 25893
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "24 Attack Power, Minor Run Speed (2 Yellow, 1 Red)", GOSSIP_SENDER_MAIN, ID_GEMS+28); // 25894
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "12 Crit Rating, 10% Reduced Snare/Root Duration (More Red than Yellow)", GOSSIP_SENDER_MAIN, ID_GEMS+29); // 25895
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "18 Stamina, 15% Reduced Stun Duration (3 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+30); // 25896
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "14 Spell Power, 2% Reduced Threat (More Red than Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+31); // 25897
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "12 Defense Rating, Chance to restore Health (5 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+32); // 25898
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "3 Melee Damage, Chance to Stun Target (2 Red, 2 Yellow, 2 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+33); // 25899
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "12 Intellect, Chance to Restore Mana on Spellcast (2 Red, 2 Yellow, 2 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+34); // 25901
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "21 Intellect, Chance to Restore Mana on Spellcast (1 Red, 1 Yellow, 1 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+25); // 41401
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "14 Crit Rating, 1% Spell Reflect (2 Red, 2 Blue, 2 Yellow)", GOSSIP_SENDER_MAIN, ID_GEMS+26); // 25890
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Chance to Increase Spell Cast Speed (More Blue than Yellow", GOSSIP_SENDER_MAIN, ID_GEMS+27); // 25893
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "24 Attack Power, Minor Run Speed (2 Yellow, 1 Red)", GOSSIP_SENDER_MAIN, ID_GEMS+28); // 25894
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "12 Crit Rating, 10% Reduced Snare/Root Duration (More Red than Yellow)", GOSSIP_SENDER_MAIN, ID_GEMS+29); // 25895
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "18 Stamina, 15% Reduced Stun Duration (3 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+30); // 25896
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "14 Spell Power, 2% Reduced Threat (More Red than Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+31); // 25897
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "12 Defense Rating, Chance to restore Health (5 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+32); // 25898
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "3 Melee Damage, Chance to Stun Target (2 Red, 2 Yellow, 2 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+33); // 25899
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "12 Intellect, Chance to Restore Mana on Spellcast (2 Red, 2 Yellow, 2 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+34); // 25901
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Next Page", GOSSIP_SENDER_MAIN, ID_GEMS+4);
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS+2);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
@@ -1101,11 +1101,11 @@ class Kickstarter : public CreatureScript
             if (action == ID_GEMS+4)
             {
                 ClearGossipMenuFor(player);
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "12 Agility, 3% Increased Crit Damage (2 Red, 2 Yellow, 2 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+35); // 32409
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Chance to Increase Attack Speed (2 Red, 2 Blue, 2 Yellow)", GOSSIP_SENDER_MAIN, ID_GEMS+36); // 32410
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "12 Crit Rating, 3% Increased Crit Damage (2 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+37); // 34220
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "12 Defense Rating, 5% Shield Block Value (2 Blue, 1 Yellow)", GOSSIP_SENDER_MAIN, ID_GEMS+38); // 35501
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "14 Spell Power, 2% Intellect (3 Red)", GOSSIP_SENDER_MAIN, ID_GEMS+39); // 35503
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "12 Agility, 3% Increased Crit Damage (2 Red, 2 Yellow, 2 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+35); // 32409
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Chance to Increase Attack Speed (2 Red, 2 Blue, 2 Yellow)", GOSSIP_SENDER_MAIN, ID_GEMS+36); // 32410
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "12 Crit Rating, 3% Increased Crit Damage (2 Blue)", GOSSIP_SENDER_MAIN, ID_GEMS+37); // 34220
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "12 Defense Rating, 5% Shield Block Value (2 Blue, 1 Yellow)", GOSSIP_SENDER_MAIN, ID_GEMS+38); // 35501
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "14 Spell Power, 2% Intellect (3 Red)", GOSSIP_SENDER_MAIN, ID_GEMS+39); // 35503
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS+3);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
@@ -1359,14 +1359,14 @@ class Kickstarter : public CreatureScript
             if (action == ID_GEMS+40)
             {
                 ClearGossipMenuFor(player);
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "20 Strength", GOSSIP_SENDER_MAIN, ID_GEMS+41); // 40111
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "20 Agility", GOSSIP_SENDER_MAIN, ID_GEMS+42); // 40112
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "23 Spell Power", GOSSIP_SENDER_MAIN, ID_GEMS+43); // 40113
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "40 Attack Power", GOSSIP_SENDER_MAIN, ID_GEMS+44); // 40114
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "20 Dodge Rating", GOSSIP_SENDER_MAIN, ID_GEMS+45); // 40115
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "20 Parry Rating", GOSSIP_SENDER_MAIN, ID_GEMS+46); // 40116
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "20 Armor Penetration Rating", GOSSIP_SENDER_MAIN, ID_GEMS+47); // 40117
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "20 Expertise Rating", GOSSIP_SENDER_MAIN, ID_GEMS+48); // 40118
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "20 Strength", GOSSIP_SENDER_MAIN, ID_GEMS+41); // 40111
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "20 Agility", GOSSIP_SENDER_MAIN, ID_GEMS+42); // 40112
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "23 Spell Power", GOSSIP_SENDER_MAIN, ID_GEMS+43); // 40113
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "40 Attack Power", GOSSIP_SENDER_MAIN, ID_GEMS+44); // 40114
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "20 Dodge Rating", GOSSIP_SENDER_MAIN, ID_GEMS+45); // 40115
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "20 Parry Rating", GOSSIP_SENDER_MAIN, ID_GEMS+46); // 40116
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "20 Armor Penetration Rating", GOSSIP_SENDER_MAIN, ID_GEMS+47); // 40117
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "20 Expertise Rating", GOSSIP_SENDER_MAIN, ID_GEMS+48); // 40118
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
@@ -1427,32 +1427,112 @@ class Kickstarter : public CreatureScript
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            /*
             // Gems: Blue
-            if (action == ID_GEMS+0)
+            if (action == ID_GEMS+49)
             {
                 ClearGossipMenuFor(player);
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "30 Stamina", GOSSIP_SENDER_MAIN, ID_GEMS+50); // 40119
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "20 Spirit", GOSSIP_SENDER_MAIN, ID_GEMS+51); // 40120
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "10 Mana every 5 Seconds", GOSSIP_SENDER_MAIN, ID_GEMS+52); // 40121
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "25 Spell Penetration", GOSSIP_SENDER_MAIN, ID_GEMS+53); // 40122
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
 
+            // Gems: Blue
+            if (action == ID_GEMS+50)
+            {
+                player->AddItem(40119, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Blue
+            if (action == ID_GEMS+51)
+            {
+                player->AddItem(40120, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Blue
+            if (action == ID_GEMS+52)
+            {
+                player->AddItem(40121, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Blue
+            if (action == ID_GEMS+53)
+            {
+                player->AddItem(40122, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Gems: Yellow
-            if (action == ID_GEMS+0)
+            if (action == ID_GEMS+54)
             {
                 ClearGossipMenuFor(player);
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "20 Intellect", GOSSIP_SENDER_MAIN, ID_GEMS+55); // 40123
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "20 Critical Strike Rating", GOSSIP_SENDER_MAIN, ID_GEMS+56); // 40124
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "20 Hit Rating", GOSSIP_SENDER_MAIN, ID_GEMS+57); // 40125
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "20 Defense Rating", GOSSIP_SENDER_MAIN, ID_GEMS+58); // 40126
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "20 Resilience Rating", GOSSIP_SENDER_MAIN, ID_GEMS+59); // 40127
+                AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "20 Haste Rating", GOSSIP_SENDER_MAIN, ID_GEMS+60); // 40128
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
 
+            // Gems: Yellow
+            if (action == ID_GEMS+55)
+            {
+                player->AddItem(40123, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Yellow
+            if (action == ID_GEMS+56)
+            {
+                player->AddItem(40124, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Yellow
+            if (action == ID_GEMS+57)
+            {
+                player->AddItem(40125, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Yellow
+            if (action == ID_GEMS+58)
+            {
+                player->AddItem(40126, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Yellow
+            if (action == ID_GEMS+59)
+            {
+                player->AddItem(40127, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Gems: Yellow
+            if (action == ID_GEMS+60)
+            {
+                player->AddItem(40128, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Gems: Purple
-            if (action == ID_GEMS+0)
+            if (action == ID_GEMS+61)
             {
                 ClearGossipMenuFor(player);
-
+                //AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GEMS+62); // 
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GEMS);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Gems: Green
+            /*// Gems: Green
             if (action == ID_GEMS+0)
             {
                 ClearGossipMenuFor(player);
@@ -1472,8 +1552,8 @@ class Kickstarter : public CreatureScript
             if (action == ID_GLYPHS)
             {
                 ClearGossipMenuFor(player);
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Major", GOSSIP_SENDER_MAIN, ID_GLYPHS+1);
-                AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "Minor", GOSSIP_SENDER_MAIN, ID_GLYPHS+2);
+                AddGossipItemFor(player, GOSSIP_ICON_TALK, "Major", GOSSIP_SENDER_MAIN, ID_GLYPHS+1);
+                AddGossipItemFor(player, GOSSIP_ICON_TALK, "Minor", GOSSIP_SENDER_MAIN, ID_GLYPHS+2);
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_TYPE, creature->GetGUID());
             }

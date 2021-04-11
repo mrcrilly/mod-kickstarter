@@ -26,29 +26,13 @@ INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry, 'What do you need?');
 DELETE FROM `npc_text` WHERE `ID`=@Entry+1;
 INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+1, 'Which specialization?');
 DELETE FROM `npc_text` WHERE `ID`=@Entry+2;
-INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+2, 'Which type do you want?');
+INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+2, 'What type do you want?');
 DELETE FROM `npc_text` WHERE `ID`=@Entry+3;
-INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+3, 'You need to remove all of your equipment before I help you with this.');
+INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+3, 'You need to remove all of your equipment before I can help you with this.');
 DELETE FROM `npc_text` WHERE `ID`=@Entry+4;
-INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+4, 'I\'m afraid this service is only available to those at the maximum level...');
+INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES (@Entry+4, 'I\'m afraid this service is only available to those who have reached level 80.');
 
 /*-- Gems
--- Blue Gems
-UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN (40119, 40120, 40121, 40122);
-DELETE FROM `npc_vendor` WHERE `entry`=@Entry+27;
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+27, 40119);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+27, 40120);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+27, 40121);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+27, 40122);
--- Yellow Gems
-UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN (40123, 40124, 40125, 40126, 40127, 40128);
-DELETE FROM `npc_vendor` WHERE `entry`=@Entry+28;
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+28, 40123);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+28, 40124);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+28, 40125);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+28, 40126);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+28, 40127);
-INSERT INTO `npc_vendor` (`entry`, `item`) VALUES (@Entry+28, 40128);
 -- Purple Gems
 UPDATE `item_template` SET `BuyPrice`=0, `SellPrice`=0 WHERE `entry` IN (40129, 40130, 40131, 40132, 40133, 40134, 40135, 40136, 40137, 40138, 40139, 40140, 40141);
 DELETE FROM `npc_vendor` WHERE `entry`=@Entry+29;
