@@ -2665,7 +2665,7 @@ class Kickstarter : public CreatureScript
             }
 
             // Glyphs: Major (Paladin)
-            if (action == ID_GLYPHS+15)
+            if (action == ID_GLYPHS+25)
             {
                 player->AddItem(45744, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
