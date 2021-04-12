@@ -1040,7 +1040,7 @@ class Kickstarter : public CreatureScript
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_TYPE, creature->GetGUID());
             }
 
-            // Gems: Meta
+            // Gems: Meta (Page 1)
             if (action == ID_GEMS+1)
             {
                 ClearGossipMenuFor(player);
@@ -1059,7 +1059,7 @@ class Kickstarter : public CreatureScript
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Gems: Meta
+            // Gems: Meta (Page 2)
             if (action == ID_GEMS+2)
             {
                 ClearGossipMenuFor(player);
@@ -1078,7 +1078,7 @@ class Kickstarter : public CreatureScript
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Gems: Meta
+            // Gems: Meta (Page 3)
             if (action == ID_GEMS+3)
             {
                 ClearGossipMenuFor(player);
@@ -1097,7 +1097,7 @@ class Kickstarter : public CreatureScript
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Gems: Meta
+            // Gems: Meta (Page 4)
             if (action == ID_GEMS+4)
             {
                 ClearGossipMenuFor(player);
@@ -1523,7 +1523,7 @@ class Kickstarter : public CreatureScript
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Gems: Purple
+            // Gems: Purple (Page 1)
             if (action == ID_GEMS+61)
             {
                 ClearGossipMenuFor(player);
@@ -1542,7 +1542,7 @@ class Kickstarter : public CreatureScript
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Gems: Purple
+            // Gems: Purple (Page 2)
             if (action == ID_GEMS+62)
             {
                 ClearGossipMenuFor(player);
@@ -1644,7 +1644,7 @@ class Kickstarter : public CreatureScript
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Gems: Green
+            // Gems: Green (Page 1)
             if (action == ID_GEMS+76)
             {
                 ClearGossipMenuFor(player);
@@ -1663,7 +1663,7 @@ class Kickstarter : public CreatureScript
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Gems: Green
+            // Gems: Green (Page 2)
             if (action == ID_GEMS+77)
             {
                 ClearGossipMenuFor(player);
@@ -1813,7 +1813,7 @@ class Kickstarter : public CreatureScript
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Gems: Orange
+            // Gems: Orange (Page 1)
             if (action == ID_GEMS+97)
             {
                 ClearGossipMenuFor(player);
@@ -1832,7 +1832,7 @@ class Kickstarter : public CreatureScript
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Gems: Orange
+            // Gems: Orange (Page 2)
             if (action == ID_GEMS+98)
             {
                 ClearGossipMenuFor(player);
@@ -1851,7 +1851,7 @@ class Kickstarter : public CreatureScript
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Gems: Orange
+            // Gems: Orange (Page 3)
             if (action == ID_GEMS+99)
             {
                 ClearGossipMenuFor(player);
@@ -2025,7 +2025,7 @@ class Kickstarter : public CreatureScript
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_TYPE, creature->GetGUID());
             }
 
-            // Glyphs: Major
+            // Glyphs: Major (Page 1)
             if (action == ID_GLYPHS+1)
             {
                 ClearGossipMenuFor(player);
@@ -2161,7 +2161,7 @@ class Kickstarter : public CreatureScript
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Glyphs: Major
+            // Glyphs: Major (Page 2)
             if (action == ID_GLYPHS+2)
             {
                 ClearGossipMenuFor(player);
@@ -2297,7 +2297,7 @@ class Kickstarter : public CreatureScript
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Glyphs: Major
+            // Glyphs: Major (Page 3)
             if (action == ID_GLYPHS+3)
             {
                 ClearGossipMenuFor(player);
@@ -2409,11 +2409,12 @@ class Kickstarter : public CreatureScript
                     default:
                         break;
                 }
+
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GLYPHS+2);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Glyphs: Major
+            // Glyphs: Major (Page 4)
             if (action == ID_GLYPHS+4)
             {
                 ClearGossipMenuFor(player);
