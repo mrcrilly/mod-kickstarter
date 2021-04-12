@@ -2169,124 +2169,124 @@ class Kickstarter : public CreatureScript
                 switch (player->getClass())
                 {
                     case CLASS_PRIEST:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+106); // 42405
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+107); // 42409
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+108); // 42417
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+109); // 42399
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+110); // 42400
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+111); // 42401
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+112); // 42407
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+113); // 42412
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+114); // 42397
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+115); // 42415
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Mind Control", GOSSIP_SENDER_MAIN, ID_GLYPHS+106); // 42405
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Prayer of Healing", GOSSIP_SENDER_MAIN, ID_GLYPHS+107); // 42409
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Spirit of Redemption", GOSSIP_SENDER_MAIN, ID_GLYPHS+108); // 42417
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Fear Ward", GOSSIP_SENDER_MAIN, ID_GLYPHS+109); // 42399
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Flash Heal", GOSSIP_SENDER_MAIN, ID_GLYPHS+110); // 42400
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Holy Nova", GOSSIP_SENDER_MAIN, ID_GLYPHS+111); // 42401
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shadow", GOSSIP_SENDER_MAIN, ID_GLYPHS+112); // 42407
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Scourge Imprisonment", GOSSIP_SENDER_MAIN, ID_GLYPHS+113); // 42412
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Dispel Magic", GOSSIP_SENDER_MAIN, ID_GLYPHS+114); // 42397
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Mind Flay", GOSSIP_SENDER_MAIN, ID_GLYPHS+115); // 42415
                         break;
                     case CLASS_PALADIN:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+116); // 45745
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+117); // 45746
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+118); // 45747
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+119); // 41109
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+120); // 41104
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+121); // 41110
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+122); // 41102
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+123); // 41094
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+124); // 41098
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+125); // 41099
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Divine Plea", GOSSIP_SENDER_MAIN, ID_GLYPHS+116); // 45745
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Holy Shock", GOSSIP_SENDER_MAIN, ID_GLYPHS+117); // 45746
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Salvation", GOSSIP_SENDER_MAIN, ID_GLYPHS+118); // 45747
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Seal of Wisdom", GOSSIP_SENDER_MAIN, ID_GLYPHS+119); // 41109
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Cleansing", GOSSIP_SENDER_MAIN, ID_GLYPHS+120); // 41104
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Seal of Light", GOSSIP_SENDER_MAIN, ID_GLYPHS+121); // 41110
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Turn Evil", GOSSIP_SENDER_MAIN, ID_GLYPHS+122); // 41102
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Seal of Command", GOSSIP_SENDER_MAIN, ID_GLYPHS+123); // 41094
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Crusader Strike", GOSSIP_SENDER_MAIN, ID_GLYPHS+124); // 41098
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Consecration", GOSSIP_SENDER_MAIN, ID_GLYPHS+125); // 41099
                         break;
                     case CLASS_WARRIOR:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+126); // 43425
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+127); // 43432
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+128); // 43428
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+129); // 43416
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+130); // 43414
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+131); // 43426
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+132); // 43420
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+133); // 43431
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+134); // 43424
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+135); // 43422
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blocking", GOSSIP_SENDER_MAIN, ID_GLYPHS+126); // 43425
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Whirlwind", GOSSIP_SENDER_MAIN, ID_GLYPHS+127); // 43432
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Sweeping Strikes", GOSSIP_SENDER_MAIN, ID_GLYPHS+128); // 43428
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Execution", GOSSIP_SENDER_MAIN, ID_GLYPHS+129); // 43416
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Cleaving", GOSSIP_SENDER_MAIN, ID_GLYPHS+130); // 43414
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Last Stand", GOSSIP_SENDER_MAIN, ID_GLYPHS+131); // 43426
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Barbaric Insults", GOSSIP_SENDER_MAIN, ID_GLYPHS+132); // 43420
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Victory Rush", GOSSIP_SENDER_MAIN, ID_GLYPHS+133); // 43431
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Revenge", GOSSIP_SENDER_MAIN, ID_GLYPHS+134); // 43424
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Overpower", GOSSIP_SENDER_MAIN, ID_GLYPHS+135); // 43422
                         break;
                     case CLASS_MAGE:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+136); // 45738
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+137); // 45739
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+138); // 45740
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+139); // 42749
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+140); // 42744
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+141); // 42750
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+142); // 42737
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+143); // 42738
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+144); // 42746
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+145); // 42747
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Arcane Barrage", GOSSIP_SENDER_MAIN, ID_GLYPHS+136); // 45738
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Mirror Image", GOSSIP_SENDER_MAIN, ID_GLYPHS+137); // 45739
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Ice Barrier", GOSSIP_SENDER_MAIN, ID_GLYPHS+138); // 45740
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Mage Armor", GOSSIP_SENDER_MAIN, ID_GLYPHS+139); // 42749
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Ice Block", GOSSIP_SENDER_MAIN, ID_GLYPHS+140); // 42744
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Mana Gem", GOSSIP_SENDER_MAIN, ID_GLYPHS+141); // 42750
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blink", GOSSIP_SENDER_MAIN, ID_GLYPHS+142); // 42737
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Evocation", GOSSIP_SENDER_MAIN, ID_GLYPHS+143); // 42738
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Icy Veins", GOSSIP_SENDER_MAIN, ID_GLYPHS+144); // 42746
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Scorch", GOSSIP_SENDER_MAIN, ID_GLYPHS+145); // 42747
                         break;
                     case CLASS_WARLOCK:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+146); // 45785
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+147); // 45789
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+148); // 42460
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+149); // 42469
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+150); // 42453
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+151); // 42471
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+152); // 42468
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+153); // 42466
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+154); // 42470
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+155); // 42461
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Life Tap", GOSSIP_SENDER_MAIN, ID_GLYPHS+146); // 45785
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Soul Link", GOSSIP_SENDER_MAIN, ID_GLYPHS+147); // 45789
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Felhunter", GOSSIP_SENDER_MAIN, ID_GLYPHS+148); // 42460
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Siphon Life", GOSSIP_SENDER_MAIN, ID_GLYPHS+149); // 42469
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Incinerate", GOSSIP_SENDER_MAIN, ID_GLYPHS+150); // 42453
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Succubus", GOSSIP_SENDER_MAIN, ID_GLYPHS+151); // 42471
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shadowburn", GOSSIP_SENDER_MAIN, ID_GLYPHS+152); // 42468
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Searing Pain", GOSSIP_SENDER_MAIN, ID_GLYPHS+153); // 42466
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Soulstone", GOSSIP_SENDER_MAIN, ID_GLYPHS+154); // 42470
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Health Funnel", GOSSIP_SENDER_MAIN, ID_GLYPHS+155); // 42461
                         break;
                     case CLASS_SHAMAN:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+156); // 45776
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+157); // 45777
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+158); // 45778
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+159); // 41518
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+160); // 41527
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+161); // 41542
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+162); // 41533
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+163); // 41535
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+164); // 41541
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+165); // 41547
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Totem of Wrath", GOSSIP_SENDER_MAIN, ID_GLYPHS+156); // 45776
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Hex", GOSSIP_SENDER_MAIN, ID_GLYPHS+157); // 45777
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Stoneclaw Totem", GOSSIP_SENDER_MAIN, ID_GLYPHS+158); // 45778
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Chain Lightning", GOSSIP_SENDER_MAIN, ID_GLYPHS+159); // 41518
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Earthliving Weapon", GOSSIP_SENDER_MAIN, ID_GLYPHS+160); // 41527
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Windfury Weapon", GOSSIP_SENDER_MAIN, ID_GLYPHS+161); // 41542
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Healing Stream Totem", GOSSIP_SENDER_MAIN, ID_GLYPHS+162); // 41533
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Lesser Healing Wave", GOSSIP_SENDER_MAIN, ID_GLYPHS+163); // 41535
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Water Mastery", GOSSIP_SENDER_MAIN, ID_GLYPHS+164); // 41541
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Frost Shock", GOSSIP_SENDER_MAIN, ID_GLYPHS+165); // 41547
                         break;
                     case CLASS_DRUID:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+166); // 45604
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+167); // 45622
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+168); // 45623
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+169); // 40896
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+170); // 40903
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+171); // 40901
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+172); // 40902
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+173); // 40909
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+174); // 40916
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+175); // 40919
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Savage Roar", GOSSIP_SENDER_MAIN, ID_GLYPHS+166); // 45604
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Monsoon", GOSSIP_SENDER_MAIN, ID_GLYPHS+167); // 45622
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Barkskin", GOSSIP_SENDER_MAIN, ID_GLYPHS+168); // 45623
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Frenzied Regeneration", GOSSIP_SENDER_MAIN, ID_GLYPHS+169); // 40896
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Rake", GOSSIP_SENDER_MAIN, ID_GLYPHS+170); // 40903
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shred", GOSSIP_SENDER_MAIN, ID_GLYPHS+171); // 40901
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Rip", GOSSIP_SENDER_MAIN, ID_GLYPHS+172); // 40902
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Rebirth", GOSSIP_SENDER_MAIN, ID_GLYPHS+173); // 40909
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Starfire", GOSSIP_SENDER_MAIN, ID_GLYPHS+174); // 40916
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Insect Swarm", GOSSIP_SENDER_MAIN, ID_GLYPHS+175); // 40919
                         break;
                     case CLASS_HUNTER:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+176); // 45734
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+177); // 45735
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+178); // 42899
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+179); // 42906
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+180); // 42911
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+181); // 42897
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+182); // 42903
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+183); // 42904
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+184); // 42905
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+185); // 42910
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Scatter Shot", GOSSIP_SENDER_MAIN, ID_GLYPHS+176); // 45734
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Raptor Strike", GOSSIP_SENDER_MAIN, ID_GLYPHS+177); // 45735
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of the Beast", GOSSIP_SENDER_MAIN, ID_GLYPHS+178); // 42899
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Frost Trap", GOSSIP_SENDER_MAIN, ID_GLYPHS+179); // 42906
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Rapid Fire", GOSSIP_SENDER_MAIN, ID_GLYPHS+180); // 42911
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Aimed Shot", GOSSIP_SENDER_MAIN, ID_GLYPHS+181); // 42897
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Deterrence", GOSSIP_SENDER_MAIN, ID_GLYPHS+182); // 42903
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Disengage", GOSSIP_SENDER_MAIN, ID_GLYPHS+183); // 42904
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Freezing Trap", GOSSIP_SENDER_MAIN, ID_GLYPHS+184); // 42905
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Multi-Shot", GOSSIP_SENDER_MAIN, ID_GLYPHS+185); // 42910
                         break;
                     case CLASS_ROGUE:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+186); // 45908
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+187); // 42957
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+188); // 42967
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+189); // 42968
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+190); // 42958
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+191); // 42965
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+192); // 42969
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+193); // 42955
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+194); // 42963
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+195); // 42962
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Envenom", GOSSIP_SENDER_MAIN, ID_GLYPHS+186); // 45908
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blade Flurry", GOSSIP_SENDER_MAIN, ID_GLYPHS+187); // 42957
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Hemorrhage", GOSSIP_SENDER_MAIN, ID_GLYPHS+188); // 42967
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Preparation", GOSSIP_SENDER_MAIN, ID_GLYPHS+189); // 42968
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Crippling Poison", GOSSIP_SENDER_MAIN, ID_GLYPHS+190); // 42958
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Ghostly Strike", GOSSIP_SENDER_MAIN, ID_GLYPHS+191); // 42965
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Rupture", GOSSIP_SENDER_MAIN, ID_GLYPHS+192); // 42969
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Ambush", GOSSIP_SENDER_MAIN, ID_GLYPHS+193); // 42955
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Feint", GOSSIP_SENDER_MAIN, ID_GLYPHS+194); // 42963
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Expose Armor", GOSSIP_SENDER_MAIN, ID_GLYPHS+195); // 42962
                         break;
                     case CLASS_DEATH_KNIGHT:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+196); // 43547
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+197); // 43548
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+198); // 43549
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+199); // 43550
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+200); // 43551
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+201); // 43552
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+202); // 43553
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+203); // 43554
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+204); // 43825
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+205); // 43826
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Obliterate", GOSSIP_SENDER_MAIN, ID_GLYPHS+196); // 43547
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Plague Strike", GOSSIP_SENDER_MAIN, ID_GLYPHS+197); // 43548
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of the Ghoul", GOSSIP_SENDER_MAIN, ID_GLYPHS+198); // 43549
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Rune Strike", GOSSIP_SENDER_MAIN, ID_GLYPHS+199); // 43550
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Scourge Strike", GOSSIP_SENDER_MAIN, ID_GLYPHS+200); // 43551
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Strangulate", GOSSIP_SENDER_MAIN, ID_GLYPHS+201); // 43552
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Unbreakable Armor", GOSSIP_SENDER_MAIN, ID_GLYPHS+202); // 43553
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Vampiric Blood", GOSSIP_SENDER_MAIN, ID_GLYPHS+203); // 43554
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Rune Tap", GOSSIP_SENDER_MAIN, ID_GLYPHS+204); // 43825
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blood Strike", GOSSIP_SENDER_MAIN, ID_GLYPHS+205); // 43826
                         break;
                     default:
                         break;
@@ -2439,89 +2439,89 @@ class Kickstarter : public CreatureScript
                 switch (player->getClass())
                 {
                     case CLASS_PRIEST:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shadowfiend", GOSSIP_SENDER_MAIN, ID_GLYPHS+287); // 43374
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Levitate", GOSSIP_SENDER_MAIN, ID_GLYPHS+288); // 43370
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shadow Protection", GOSSIP_SENDER_MAIN, ID_GLYPHS+289); // 43372
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shackle Undead", GOSSIP_SENDER_MAIN, ID_GLYPHS+290); // 43373
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Fading", GOSSIP_SENDER_MAIN, ID_GLYPHS+291); // 43342
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Fortitude", GOSSIP_SENDER_MAIN, ID_GLYPHS+292); // 43371
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shadowfiend", GOSSIP_SENDER_MAIN, ID_GLYPHS+288); // 43374
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Levitate", GOSSIP_SENDER_MAIN, ID_GLYPHS+289); // 43370
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shadow Protection", GOSSIP_SENDER_MAIN, ID_GLYPHS+290); // 43372
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shackle Undead", GOSSIP_SENDER_MAIN, ID_GLYPHS+291); // 43373
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Fading", GOSSIP_SENDER_MAIN, ID_GLYPHS+292); // 43342
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Fortitude", GOSSIP_SENDER_MAIN, ID_GLYPHS+293); // 43371
                         break;
                     case CLASS_PALADIN:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of the Wise", GOSSIP_SENDER_MAIN, ID_GLYPHS+293); // 43369
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blessing of Kings", GOSSIP_SENDER_MAIN, ID_GLYPHS+294); // 43365
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Sense Undead", GOSSIP_SENDER_MAIN, ID_GLYPHS+295); // 43368
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blessing of Wisdom", GOSSIP_SENDER_MAIN, ID_GLYPHS+296); // 43366
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Lay on Hands", GOSSIP_SENDER_MAIN, ID_GLYPHS+297); // 43367
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blessing of Might", GOSSIP_SENDER_MAIN, ID_GLYPHS+298); // 43340
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of the Wise", GOSSIP_SENDER_MAIN, ID_GLYPHS+294); // 43369
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blessing of Kings", GOSSIP_SENDER_MAIN, ID_GLYPHS+295); // 43365
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Sense Undead", GOSSIP_SENDER_MAIN, ID_GLYPHS+296); // 43368
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blessing of Wisdom", GOSSIP_SENDER_MAIN, ID_GLYPHS+297); // 43366
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Lay on Hands", GOSSIP_SENDER_MAIN, ID_GLYPHS+298); // 43367
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blessing of Might", GOSSIP_SENDER_MAIN, ID_GLYPHS+299); // 43340
                         break;
                     case CLASS_WARRIOR:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Command", GOSSIP_SENDER_MAIN, ID_GLYPHS+299); // 49084
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Enduring Victory", GOSSIP_SENDER_MAIN, ID_GLYPHS+300); // 43400
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Mocking Blow", GOSSIP_SENDER_MAIN, ID_GLYPHS+301); // 43398
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Bloodrage", GOSSIP_SENDER_MAIN, ID_GLYPHS+302); // 43396
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Thunder Clap", GOSSIP_SENDER_MAIN, ID_GLYPHS+303); // 43399
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Charge", GOSSIP_SENDER_MAIN, ID_GLYPHS+304); // 43397
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Battle", GOSSIP_SENDER_MAIN, ID_GLYPHS+305); // 43395
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Command", GOSSIP_SENDER_MAIN, ID_GLYPHS+300); // 49084
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Enduring Victory", GOSSIP_SENDER_MAIN, ID_GLYPHS+301); // 43400
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Mocking Blow", GOSSIP_SENDER_MAIN, ID_GLYPHS+302); // 43398
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Bloodrage", GOSSIP_SENDER_MAIN, ID_GLYPHS+303); // 43396
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Thunder Clap", GOSSIP_SENDER_MAIN, ID_GLYPHS+304); // 43399
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Charge", GOSSIP_SENDER_MAIN, ID_GLYPHS+305); // 43397
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Battle", GOSSIP_SENDER_MAIN, ID_GLYPHS+306); // 43395
                         break;
                     case CLASS_MAGE:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blast Wave", GOSSIP_SENDER_MAIN, ID_GLYPHS+306); // 44920
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Frost Ward", GOSSIP_SENDER_MAIN, ID_GLYPHS+307); // 43360
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Fire Ward", GOSSIP_SENDER_MAIN, ID_GLYPHS+308); // 43357
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Slow Fall", GOSSIP_SENDER_MAIN, ID_GLYPHS+309); // 43364
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of the Penguin", GOSSIP_SENDER_MAIN, ID_GLYPHS+310); // 43361
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of the Bear Cub", GOSSIP_SENDER_MAIN, ID_GLYPHS+311); // 43362
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Arcane Intellect", GOSSIP_SENDER_MAIN, ID_GLYPHS+312); // 43339
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Frost Armor", GOSSIP_SENDER_MAIN, ID_GLYPHS+313); // 43359
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blast Wave", GOSSIP_SENDER_MAIN, ID_GLYPHS+307); // 44920
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Frost Ward", GOSSIP_SENDER_MAIN, ID_GLYPHS+308); // 43360
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Fire Ward", GOSSIP_SENDER_MAIN, ID_GLYPHS+309); // 43357
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Slow Fall", GOSSIP_SENDER_MAIN, ID_GLYPHS+310); // 43364
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of the Penguin", GOSSIP_SENDER_MAIN, ID_GLYPHS+311); // 43361
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of the Bear Cub", GOSSIP_SENDER_MAIN, ID_GLYPHS+312); // 43362
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Arcane Intellect", GOSSIP_SENDER_MAIN, ID_GLYPHS+313); // 43339
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Frost Armor", GOSSIP_SENDER_MAIN, ID_GLYPHS+314); // 43359
                         break;
                     case CLASS_WARLOCK:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Curse of Exhaustion", GOSSIP_SENDER_MAIN, ID_GLYPHS+314); // 43392
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Souls", GOSSIP_SENDER_MAIN, ID_GLYPHS+315); // 43394
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Enslave Demon", GOSSIP_SENDER_MAIN, ID_GLYPHS+316); // 43393
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Kilrogg", GOSSIP_SENDER_MAIN, ID_GLYPHS+317); // 43391
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Drain Soul", GOSSIP_SENDER_MAIN, ID_GLYPHS+318); // 43390
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Unending Breath", GOSSIP_SENDER_MAIN, ID_GLYPHS+319); // 43389
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Curse of Exhaustion", GOSSIP_SENDER_MAIN, ID_GLYPHS+315); // 43392
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Souls", GOSSIP_SENDER_MAIN, ID_GLYPHS+316); // 43394
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Enslave Demon", GOSSIP_SENDER_MAIN, ID_GLYPHS+317); // 43393
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Kilrogg", GOSSIP_SENDER_MAIN, ID_GLYPHS+318); // 43391
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Drain Soul", GOSSIP_SENDER_MAIN, ID_GLYPHS+319); // 43390
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Unending Breath", GOSSIP_SENDER_MAIN, ID_GLYPHS+320); // 43389
                         break;
                     case CLASS_SHAMAN:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Thunderstorm", GOSSIP_SENDER_MAIN, ID_GLYPHS+320); // 44923
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Astral Recall", GOSSIP_SENDER_MAIN, ID_GLYPHS+321); // 43381
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Renewed Life", GOSSIP_SENDER_MAIN, ID_GLYPHS+322); // 43385
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Water Walking", GOSSIP_SENDER_MAIN, ID_GLYPHS+323); // 43388
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Water Breathing", GOSSIP_SENDER_MAIN, ID_GLYPHS+324); // 43344
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Water Shield", GOSSIP_SENDER_MAIN, ID_GLYPHS+325); // 43386
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Ghost Wolf", GOSSIP_SENDER_MAIN, ID_GLYPHS+326); // 43725
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Thunderstorm", GOSSIP_SENDER_MAIN, ID_GLYPHS+321); // 44923
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Astral Recall", GOSSIP_SENDER_MAIN, ID_GLYPHS+322); // 43381
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Renewed Life", GOSSIP_SENDER_MAIN, ID_GLYPHS+323); // 43385
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Water Walking", GOSSIP_SENDER_MAIN, ID_GLYPHS+324); // 43388
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Water Breathing", GOSSIP_SENDER_MAIN, ID_GLYPHS+325); // 43344
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Water Shield", GOSSIP_SENDER_MAIN, ID_GLYPHS+326); // 43386
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Ghost Wolf", GOSSIP_SENDER_MAIN, ID_GLYPHS+327); // 43725
                         break;
                     case CLASS_DRUID:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Typhoon", GOSSIP_SENDER_MAIN, ID_GLYPHS+327); // 44922
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Challenging Roar", GOSSIP_SENDER_MAIN, ID_GLYPHS+328); // 43334
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Unburdened Rebirth", GOSSIP_SENDER_MAIN, ID_GLYPHS+329); // 43331
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Aquatic Form", GOSSIP_SENDER_MAIN, ID_GLYPHS+330); // 43316
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Dash", GOSSIP_SENDER_MAIN, ID_GLYPHS+331); // 43674
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Thorns", GOSSIP_SENDER_MAIN, ID_GLYPHS+332); // 43332
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of the Wild", GOSSIP_SENDER_MAIN, ID_GLYPHS+333); // 43335
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Typhoon", GOSSIP_SENDER_MAIN, ID_GLYPHS+328); // 44922
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Challenging Roar", GOSSIP_SENDER_MAIN, ID_GLYPHS+329); // 43334
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Unburdened Rebirth", GOSSIP_SENDER_MAIN, ID_GLYPHS+330); // 43331
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Aquatic Form", GOSSIP_SENDER_MAIN, ID_GLYPHS+331); // 43316
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Dash", GOSSIP_SENDER_MAIN, ID_GLYPHS+332); // 43674
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Thorns", GOSSIP_SENDER_MAIN, ID_GLYPHS+333); // 43332
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of the Wild", GOSSIP_SENDER_MAIN, ID_GLYPHS+334); // 43335
                         break;
                     case CLASS_HUNTER:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of the Pack", GOSSIP_SENDER_MAIN, ID_GLYPHS+334); // 43355
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Feign Death", GOSSIP_SENDER_MAIN, ID_GLYPHS+335); // 43351
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Revive Pet", GOSSIP_SENDER_MAIN, ID_GLYPHS+336); // 43338
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Possessed Strength", GOSSIP_SENDER_MAIN, ID_GLYPHS+337); // 43354
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Scare Beast", GOSSIP_SENDER_MAIN, ID_GLYPHS+338); // 43356
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Mend Pet", GOSSIP_SENDER_MAIN, ID_GLYPHS+339); // 43350
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of the Pack", GOSSIP_SENDER_MAIN, ID_GLYPHS+335); // 43355
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Feign Death", GOSSIP_SENDER_MAIN, ID_GLYPHS+336); // 43351
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Revive Pet", GOSSIP_SENDER_MAIN, ID_GLYPHS+337); // 43338
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Possessed Strength", GOSSIP_SENDER_MAIN, ID_GLYPHS+338); // 43354
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Scare Beast", GOSSIP_SENDER_MAIN, ID_GLYPHS+339); // 43356
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Mend Pet", GOSSIP_SENDER_MAIN, ID_GLYPHS+340); // 43350
                         break;
                     case CLASS_ROGUE:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Safe Fall", GOSSIP_SENDER_MAIN, ID_GLYPHS+340); // 43378
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Distract", GOSSIP_SENDER_MAIN, ID_GLYPHS+341); // 43376
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Vanish", GOSSIP_SENDER_MAIN, ID_GLYPHS+342); // 43380
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Pick Lock", GOSSIP_SENDER_MAIN, ID_GLYPHS+343); // 43377
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blurred Speed", GOSSIP_SENDER_MAIN, ID_GLYPHS+344); // 43379
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Pick Pocket", GOSSIP_SENDER_MAIN, ID_GLYPHS+345); // 43343
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Safe Fall", GOSSIP_SENDER_MAIN, ID_GLYPHS+341); // 43378
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Distract", GOSSIP_SENDER_MAIN, ID_GLYPHS+342); // 43376
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Vanish", GOSSIP_SENDER_MAIN, ID_GLYPHS+343); // 43380
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Pick Lock", GOSSIP_SENDER_MAIN, ID_GLYPHS+344); // 43377
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blurred Speed", GOSSIP_SENDER_MAIN, ID_GLYPHS+345); // 43379
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Pick Pocket", GOSSIP_SENDER_MAIN, ID_GLYPHS+346); // 43343
                         break;
                     case CLASS_DEATH_KNIGHT:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blood Tap", GOSSIP_SENDER_MAIN, ID_GLYPHS+346); // 43535
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Death's Embrace", GOSSIP_SENDER_MAIN, ID_GLYPHS+347); // 43539
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Horn of Winter", GOSSIP_SENDER_MAIN, ID_GLYPHS+348); // 43544
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Corpse Explosion", GOSSIP_SENDER_MAIN, ID_GLYPHS+349); // 43671
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Pestilence", GOSSIP_SENDER_MAIN, ID_GLYPHS+350); // 43672
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Raise Dead", GOSSIP_SENDER_MAIN, ID_GLYPHS+351); // 43673
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Blood Tap", GOSSIP_SENDER_MAIN, ID_GLYPHS+347); // 43535
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Death's Embrace", GOSSIP_SENDER_MAIN, ID_GLYPHS+348); // 43539
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Horn of Winter", GOSSIP_SENDER_MAIN, ID_GLYPHS+349); // 43544
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Corpse Explosion", GOSSIP_SENDER_MAIN, ID_GLYPHS+350); // 43671
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Pestilence", GOSSIP_SENDER_MAIN, ID_GLYPHS+351); // 43672
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Raise Dead", GOSSIP_SENDER_MAIN, ID_GLYPHS+352); // 43673
                         break;
                     default:
                         break;
@@ -3223,456 +3223,1156 @@ class Kickstarter : public CreatureScript
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Glyphs: Minor (Priest)
-            if (action == ID_GLYPHS+287)
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+106)
             {
-                player->AddItem(43374, 1);
+                player->AddItem(42405, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+107)
+            {
+                player->AddItem(42409, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+108)
+            {
+                player->AddItem(42417, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+109)
+            {
+                player->AddItem(42399, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+110)
+            {
+                player->AddItem(42400, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+111)
+            {
+                player->AddItem(42401, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+112)
+            {
+                player->AddItem(42407, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+113)
+            {
+                player->AddItem(42412, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+114)
+            {
+                player->AddItem(42397, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+115)
+            {
+                player->AddItem(42415, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+116)
+            {
+                player->AddItem(45745, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+117)
+            {
+                player->AddItem(45746, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+118)
+            {
+                player->AddItem(45747, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+119)
+            {
+                player->AddItem(41109, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+120)
+            {
+                player->AddItem(41104, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+121)
+            {
+                player->AddItem(41110, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+122)
+            {
+                player->AddItem(41102, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+123)
+            {
+                player->AddItem(41094, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+124)
+            {
+                player->AddItem(41098, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+125)
+            {
+                player->AddItem(41099, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+126)
+            {
+                player->AddItem(43425, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+127)
+            {
+                player->AddItem(43432, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+128)
+            {
+                player->AddItem(43428, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+129)
+            {
+                player->AddItem(43416, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+130)
+            {
+                player->AddItem(43414, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+131)
+            {
+                player->AddItem(43426, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+132)
+            {
+                player->AddItem(43420, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+133)
+            {
+                player->AddItem(43431, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+134)
+            {
+                player->AddItem(43424, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+135)
+            {
+                player->AddItem(43422, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+136)
+            {
+                player->AddItem(45738, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+137)
+            {
+                player->AddItem(45739, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+138)
+            {
+                player->AddItem(45740, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+139)
+            {
+                player->AddItem(42749, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+140)
+            {
+                player->AddItem(42744, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+141)
+            {
+                player->AddItem(42750, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+142)
+            {
+                player->AddItem(42737, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+143)
+            {
+                player->AddItem(42738, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+144)
+            {
+                player->AddItem(42746, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+145)
+            {
+                player->AddItem(42747, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+146)
+            {
+                player->AddItem(45785, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+147)
+            {
+                player->AddItem(45789, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+148)
+            {
+                player->AddItem(42460, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+149)
+            {
+                player->AddItem(42469, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+150)
+            {
+                player->AddItem(42453, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+151)
+            {
+                player->AddItem(42471, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+152)
+            {
+                player->AddItem(42468, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+153)
+            {
+                player->AddItem(42466, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+154)
+            {
+                player->AddItem(42470, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+155)
+            {
+                player->AddItem(42461, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+156)
+            {
+                player->AddItem(45776, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+157)
+            {
+                player->AddItem(45777, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+158)
+            {
+                player->AddItem(45778, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+159)
+            {
+                player->AddItem(41518, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+160)
+            {
+                player->AddItem(41527, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+161)
+            {
+                player->AddItem(41542, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+162)
+            {
+                player->AddItem(41533, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+163)
+            {
+                player->AddItem(41535, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+164)
+            {
+                player->AddItem(41541, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+165)
+            {
+                player->AddItem(41547, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+166)
+            {
+                player->AddItem(45604, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+167)
+            {
+                player->AddItem(45622, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+168)
+            {
+                player->AddItem(45623, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+169)
+            {
+                player->AddItem(40896, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+170)
+            {
+                player->AddItem(40903, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+171)
+            {
+                player->AddItem(40901, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+172)
+            {
+                player->AddItem(40902, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+173)
+            {
+                player->AddItem(40909, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+174)
+            {
+                player->AddItem(40916, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+175)
+            {
+                player->AddItem(40919, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+176)
+            {
+                player->AddItem(45734, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+177)
+            {
+                player->AddItem(45735, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+178)
+            {
+                player->AddItem(42899, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+179)
+            {
+                player->AddItem(42906, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+180)
+            {
+                player->AddItem(42911, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+181)
+            {
+                player->AddItem(42897, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+182)
+            {
+                player->AddItem(42903, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+183)
+            {
+                player->AddItem(42904, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+184)
+            {
+                player->AddItem(42905, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+185)
+            {
+                player->AddItem(42910, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+186)
+            {
+                player->AddItem(45908, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+187)
+            {
+                player->AddItem(42957, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+188)
+            {
+                player->AddItem(42967, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+189)
+            {
+                player->AddItem(42968, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+190)
+            {
+                player->AddItem(42958, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+191)
+            {
+                player->AddItem(42965, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+192)
+            {
+                player->AddItem(42969, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+193)
+            {
+                player->AddItem(42955, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+194)
+            {
+                player->AddItem(42963, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+195)
+            {
+                player->AddItem(42962, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+196)
+            {
+                player->AddItem(43547, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+197)
+            {
+                player->AddItem(43548, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+198)
+            {
+                player->AddItem(43549, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+199)
+            {
+                player->AddItem(43550, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+200)
+            {
+                player->AddItem(43551, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+201)
+            {
+                player->AddItem(43552, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+202)
+            {
+                player->AddItem(43553, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+203)
+            {
+                player->AddItem(43554, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+204)
+            {
+                player->AddItem(43825, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+205)
+            {
+                player->AddItem(43826, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Priest)
             if (action == ID_GLYPHS+288)
             {
-                player->AddItem(43370, 1);
+                player->AddItem(43374, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Priest)
             if (action == ID_GLYPHS+289)
             {
-                player->AddItem(43372, 1);
+                player->AddItem(43370, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Priest)
             if (action == ID_GLYPHS+290)
             {
-                player->AddItem(43373, 1);
+                player->AddItem(43372, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Priest)
             if (action == ID_GLYPHS+291)
             {
-                player->AddItem(43342, 1);
+                player->AddItem(43373, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Priest)
             if (action == ID_GLYPHS+292)
             {
-                player->AddItem(43371, 1);
+                player->AddItem(43342, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Glyphs: Minor (Paladin)
+            // Glyphs: Minor (Priest)
             if (action == ID_GLYPHS+293)
             {
-                player->AddItem(43369, 1);
+                player->AddItem(43371, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Paladin)
             if (action == ID_GLYPHS+294)
             {
-                player->AddItem(43365, 1);
+                player->AddItem(43369, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Paladin)
             if (action == ID_GLYPHS+295)
             {
-                player->AddItem(43368, 1);
+                player->AddItem(43365, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Paladin)
             if (action == ID_GLYPHS+296)
             {
-                player->AddItem(43366, 1);
+                player->AddItem(43368, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Paladin)
             if (action == ID_GLYPHS+297)
             {
-                player->AddItem(43367, 1);
+                player->AddItem(43366, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Paladin)
             if (action == ID_GLYPHS+298)
             {
-                player->AddItem(43340, 1);
+                player->AddItem(43367, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Glyphs: Minor (Warrior)
+            // Glyphs: Minor (Paladin)
             if (action == ID_GLYPHS+299)
             {
-                player->AddItem(49084, 1);
+                player->AddItem(43340, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Warrior)
             if (action == ID_GLYPHS+300)
             {
-                player->AddItem(43400, 1);
+                player->AddItem(49084, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Warrior)
             if (action == ID_GLYPHS+301)
             {
-                player->AddItem(43398, 1);
+                player->AddItem(43400, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Warrior)
             if (action == ID_GLYPHS+302)
             {
-                player->AddItem(43396, 1);
+                player->AddItem(43398, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Warrior)
             if (action == ID_GLYPHS+303)
             {
-                player->AddItem(43399, 1);
+                player->AddItem(43396, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Warrior)
             if (action == ID_GLYPHS+304)
             {
-                player->AddItem(43397, 1);
+                player->AddItem(43399, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Warrior)
             if (action == ID_GLYPHS+305)
             {
-                player->AddItem(43395, 1);
+                player->AddItem(43397, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Glyphs: Minor (Mage)
+            // Glyphs: Minor (Warrior)
             if (action == ID_GLYPHS+306)
             {
-                player->AddItem(44920, 1);
+                player->AddItem(43395, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Mage)
             if (action == ID_GLYPHS+307)
             {
-                player->AddItem(43360, 1);
+                player->AddItem(44920, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Mage)
             if (action == ID_GLYPHS+308)
             {
-                player->AddItem(43357, 1);
+                player->AddItem(43360, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Mage)
             if (action == ID_GLYPHS+309)
             {
-                player->AddItem(43364, 1);
+                player->AddItem(43357, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Mage)
             if (action == ID_GLYPHS+310)
             {
-                player->AddItem(43361, 1);
+                player->AddItem(43364, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Mage)
             if (action == ID_GLYPHS+311)
             {
-                player->AddItem(43362, 1);
+                player->AddItem(43361, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Mage)
             if (action == ID_GLYPHS+312)
             {
-                player->AddItem(43339, 1);
+                player->AddItem(43362, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Mage)
             if (action == ID_GLYPHS+313)
             {
-                player->AddItem(43359, 1);
+                player->AddItem(43339, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Glyphs: Minor (Warlock)
+            // Glyphs: Minor (Mage)
             if (action == ID_GLYPHS+314)
             {
-                player->AddItem(43392, 1);
+                player->AddItem(43359, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Warlock)
             if (action == ID_GLYPHS+315)
             {
-                player->AddItem(43394, 1);
+                player->AddItem(43392, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Warlock)
             if (action == ID_GLYPHS+316)
             {
-                player->AddItem(43393, 1);
+                player->AddItem(43394, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Warlock)
             if (action == ID_GLYPHS+317)
             {
-                player->AddItem(43391, 1);
+                player->AddItem(43393, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Warlock)
             if (action == ID_GLYPHS+318)
             {
-                player->AddItem(43390, 1);
+                player->AddItem(43391, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Warlock)
             if (action == ID_GLYPHS+319)
             {
-                player->AddItem(43389, 1);
+                player->AddItem(43390, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Glyphs: Minor (Shaman)
+            // Glyphs: Minor (Warlock)
             if (action == ID_GLYPHS+320)
             {
-                player->AddItem(44923, 1);
+                player->AddItem(43389, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Shaman)
             if (action == ID_GLYPHS+321)
             {
-                player->AddItem(43381, 1);
+                player->AddItem(44923, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Shaman)
             if (action == ID_GLYPHS+322)
             {
-                player->AddItem(43385, 1);
+                player->AddItem(43381, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Shaman)
             if (action == ID_GLYPHS+323)
             {
-                player->AddItem(43388, 1);
+                player->AddItem(43385, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Shaman)
             if (action == ID_GLYPHS+324)
             {
-                player->AddItem(43344, 1);
+                player->AddItem(43388, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Shaman)
             if (action == ID_GLYPHS+325)
             {
-                player->AddItem(43386, 1);
+                player->AddItem(43344, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Shaman)
             if (action == ID_GLYPHS+326)
             {
-                player->AddItem(43725, 1);
+                player->AddItem(43386, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Glyphs: Minor (Druid)
+            // Glyphs: Minor (Shaman)
             if (action == ID_GLYPHS+327)
             {
-                player->AddItem(44922, 1);
+                player->AddItem(43725, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Druid)
             if (action == ID_GLYPHS+328)
             {
-                player->AddItem(43334, 1);
+                player->AddItem(44922, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Druid)
             if (action == ID_GLYPHS+329)
             {
-                player->AddItem(43331, 1);
+                player->AddItem(43334, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Druid)
             if (action == ID_GLYPHS+330)
             {
-                player->AddItem(43316, 1);
+                player->AddItem(43331, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Druid)
             if (action == ID_GLYPHS+331)
             {
-                player->AddItem(43674, 1);
+                player->AddItem(43316, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Druid)
             if (action == ID_GLYPHS+332)
             {
-                player->AddItem(43332, 1);
+                player->AddItem(43674, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Druid)
             if (action == ID_GLYPHS+333)
             {
-                player->AddItem(43335, 1);
+                player->AddItem(43332, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Glyphs: Minor (Hunter)
+            // Glyphs: Minor (Druid)
             if (action == ID_GLYPHS+334)
             {
-                player->AddItem(43355, 1);
+                player->AddItem(43335, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Hunter)
             if (action == ID_GLYPHS+335)
             {
-                player->AddItem(43351, 1);
+                player->AddItem(43355, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Hunter)
             if (action == ID_GLYPHS+336)
             {
-                player->AddItem(43338, 1);
+                player->AddItem(43351, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Hunter)
             if (action == ID_GLYPHS+337)
             {
-                player->AddItem(43354, 1);
+                player->AddItem(43338, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Hunter)
             if (action == ID_GLYPHS+338)
             {
-                player->AddItem(43356, 1);
+                player->AddItem(43354, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Hunter)
             if (action == ID_GLYPHS+339)
             {
-                player->AddItem(43350, 1);
+                player->AddItem(43356, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Glyphs: Minor (Rogue)
+            // Glyphs: Minor (Hunter)
             if (action == ID_GLYPHS+340)
             {
-                player->AddItem(43378, 1);
+                player->AddItem(43350, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Rogue)
             if (action == ID_GLYPHS+341)
             {
-                player->AddItem(43376, 1);
+                player->AddItem(43378, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Rogue)
             if (action == ID_GLYPHS+342)
             {
-                player->AddItem(43380, 1);
+                player->AddItem(43376, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Rogue)
             if (action == ID_GLYPHS+343)
             {
-                player->AddItem(43377, 1);
+                player->AddItem(43380, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Rogue)
             if (action == ID_GLYPHS+344)
             {
-                player->AddItem(43379, 1);
+                player->AddItem(43377, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Rogue)
             if (action == ID_GLYPHS+345)
             {
-                player->AddItem(43343, 1);
+                player->AddItem(43379, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
-            // Glyphs: Minor (Death Knight)
+            // Glyphs: Minor (Rogue)
             if (action == ID_GLYPHS+346)
             {
-                player->AddItem(43535, 1);
+                player->AddItem(43343, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Death Knight)
             if (action == ID_GLYPHS+347)
             {
-                player->AddItem(43539, 1);
+                player->AddItem(43535, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Death Knight)
             if (action == ID_GLYPHS+348)
             {
-                player->AddItem(43544, 1);
+                player->AddItem(43539, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Death Knight)
             if (action == ID_GLYPHS+349)
             {
-                player->AddItem(43671, 1);
+                player->AddItem(43544, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Death Knight)
             if (action == ID_GLYPHS+350)
             {
-                player->AddItem(43672, 1);
+                player->AddItem(43671, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             // Glyphs: Minor (Death Knight)
             if (action == ID_GLYPHS+351)
+            {
+                player->AddItem(43672, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Death Knight)
+            if (action == ID_GLYPHS+352)
             {
                 player->AddItem(43673, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
