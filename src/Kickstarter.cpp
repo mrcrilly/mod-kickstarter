@@ -2531,6 +2531,461 @@ class Kickstarter : public CreatureScript
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
+            // Glyphs: Minor (Priest)
+            if (action == ID_GLYPHS+287)
+            {
+                player->AddItem(43374, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Priest)
+            if (action == ID_GLYPHS+288)
+            {
+                player->AddItem(43370, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Priest)
+            if (action == ID_GLYPHS+289)
+            {
+                player->AddItem(43372, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Priest)
+            if (action == ID_GLYPHS+290)
+            {
+                player->AddItem(43373, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Priest)
+            if (action == ID_GLYPHS+291)
+            {
+                player->AddItem(43342, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Priest)
+            if (action == ID_GLYPHS+292)
+            {
+                player->AddItem(43371, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Paladin)
+            if (action == ID_GLYPHS+293)
+            {
+                player->AddItem(43369, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Paladin)
+            if (action == ID_GLYPHS+294)
+            {
+                player->AddItem(43365, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Paladin)
+            if (action == ID_GLYPHS+295)
+            {
+                player->AddItem(43368, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Paladin)
+            if (action == ID_GLYPHS+296)
+            {
+                player->AddItem(43366, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Paladin)
+            if (action == ID_GLYPHS+297)
+            {
+                player->AddItem(43367, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Paladin)
+            if (action == ID_GLYPHS+298)
+            {
+                player->AddItem(43340, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Warrior)
+            if (action == ID_GLYPHS+299)
+            {
+                player->AddItem(49084, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Warrior)
+            if (action == ID_GLYPHS+300)
+            {
+                player->AddItem(43400, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Warrior)
+            if (action == ID_GLYPHS+301)
+            {
+                player->AddItem(43398, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Warrior)
+            if (action == ID_GLYPHS+302)
+            {
+                player->AddItem(43396, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Warrior)
+            if (action == ID_GLYPHS+303)
+            {
+                player->AddItem(43399, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Warrior)
+            if (action == ID_GLYPHS+304)
+            {
+                player->AddItem(43397, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Warrior)
+            if (action == ID_GLYPHS+305)
+            {
+                player->AddItem(43395, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Mage)
+            if (action == ID_GLYPHS+306)
+            {
+                player->AddItem(44920, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Mage)
+            if (action == ID_GLYPHS+307)
+            {
+                player->AddItem(43360, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Mage)
+            if (action == ID_GLYPHS+308)
+            {
+                player->AddItem(43357, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Mage)
+            if (action == ID_GLYPHS+309)
+            {
+                player->AddItem(43364, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Mage)
+            if (action == ID_GLYPHS+310)
+            {
+                player->AddItem(43361, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Mage)
+            if (action == ID_GLYPHS+311)
+            {
+                player->AddItem(43362, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Mage)
+            if (action == ID_GLYPHS+312)
+            {
+                player->AddItem(43339, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Mage)
+            if (action == ID_GLYPHS+313)
+            {
+                player->AddItem(43359, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Warlock)
+            if (action == ID_GLYPHS+314)
+            {
+                player->AddItem(43392, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Warlock)
+            if (action == ID_GLYPHS+315)
+            {
+                player->AddItem(43394, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Warlock)
+            if (action == ID_GLYPHS+316)
+            {
+                player->AddItem(43393, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Warlock)
+            if (action == ID_GLYPHS+317)
+            {
+                player->AddItem(43391, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Warlock)
+            if (action == ID_GLYPHS+318)
+            {
+                player->AddItem(43390, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Warlock)
+            if (action == ID_GLYPHS+319)
+            {
+                player->AddItem(43389, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Shaman)
+            if (action == ID_GLYPHS+320)
+            {
+                player->AddItem(44923, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Shaman)
+            if (action == ID_GLYPHS+321)
+            {
+                player->AddItem(43381, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Shaman)
+            if (action == ID_GLYPHS+322)
+            {
+                player->AddItem(43385, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Shaman)
+            if (action == ID_GLYPHS+323)
+            {
+                player->AddItem(43388, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Shaman)
+            if (action == ID_GLYPHS+324)
+            {
+                player->AddItem(43344, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Shaman)
+            if (action == ID_GLYPHS+325)
+            {
+                player->AddItem(43386, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Shaman)
+            if (action == ID_GLYPHS+326)
+            {
+                player->AddItem(43725, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Druid)
+            if (action == ID_GLYPHS+327)
+            {
+                player->AddItem(44922, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Druid)
+            if (action == ID_GLYPHS+328)
+            {
+                player->AddItem(43334, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Druid)
+            if (action == ID_GLYPHS+329)
+            {
+                player->AddItem(43331, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Druid)
+            if (action == ID_GLYPHS+330)
+            {
+                player->AddItem(43316, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Druid)
+            if (action == ID_GLYPHS+331)
+            {
+                player->AddItem(43674, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Druid)
+            if (action == ID_GLYPHS+332)
+            {
+                player->AddItem(43332, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Druid)
+            if (action == ID_GLYPHS+333)
+            {
+                player->AddItem(43335, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Hunter)
+            if (action == ID_GLYPHS+334)
+            {
+                player->AddItem(43355, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Hunter)
+            if (action == ID_GLYPHS+335)
+            {
+                player->AddItem(43351, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Hunter)
+            if (action == ID_GLYPHS+336)
+            {
+                player->AddItem(43338, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Hunter)
+            if (action == ID_GLYPHS+337)
+            {
+                player->AddItem(43354, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Hunter)
+            if (action == ID_GLYPHS+338)
+            {
+                player->AddItem(43356, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Hunter)
+            if (action == ID_GLYPHS+339)
+            {
+                player->AddItem(43350, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Rogue)
+            if (action == ID_GLYPHS+340)
+            {
+                player->AddItem(43378, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Rogue)
+            if (action == ID_GLYPHS+341)
+            {
+                player->AddItem(43376, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Rogue)
+            if (action == ID_GLYPHS+342)
+            {
+                player->AddItem(43380, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Rogue)
+            if (action == ID_GLYPHS+343)
+            {
+                player->AddItem(43377, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Rogue)
+            if (action == ID_GLYPHS+344)
+            {
+                player->AddItem(43379, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Rogue)
+            if (action == ID_GLYPHS+345)
+            {
+                player->AddItem(43343, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Death Knight)
+            if (action == ID_GLYPHS+346)
+            {
+                player->AddItem(43535, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Death Knight)
+            if (action == ID_GLYPHS+347)
+            {
+                player->AddItem(43539, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Death Knight)
+            if (action == ID_GLYPHS+348)
+            {
+                player->AddItem(43544, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Death Knight)
+            if (action == ID_GLYPHS+349)
+            {
+                player->AddItem(43671, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Death Knight)
+            if (action == ID_GLYPHS+350)
+            {
+                player->AddItem(43672, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Minor (Death Knight)
+            if (action == ID_GLYPHS+351)
+            {
+                player->AddItem(43673, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
             // Class spells
             if (action == ID_SPELLS)
             {
