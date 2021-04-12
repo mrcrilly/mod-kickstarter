@@ -2033,124 +2033,124 @@ class Kickstarter : public CreatureScript
                 switch (player->getClass())
                 {
                     case CLASS_PRIEST:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+6); // 42404
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+7); // 42414
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+8); // 42396
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+9); // 42403
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+10); // 45753
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+11); // 45755
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+12); // 45756
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+13); // 45757
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+14); // 45758
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+15); // 45760
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Mass Dispel", GOSSIP_SENDER_MAIN, ID_GLYPHS+6); // 42404
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shadow Word: Death", GOSSIP_SENDER_MAIN, ID_GLYPHS+7); // 42414
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Circle of Healing", GOSSIP_SENDER_MAIN, ID_GLYPHS+8); // 42396
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Lightwell", GOSSIP_SENDER_MAIN, ID_GLYPHS+9); // 42403
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Dispersion", GOSSIP_SENDER_MAIN, ID_GLYPHS+10); // 45753
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Guardian Spirit", GOSSIP_SENDER_MAIN, ID_GLYPHS+11); // 45755
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Penance", GOSSIP_SENDER_MAIN, ID_GLYPHS+12); // 45756
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Mind Sear", GOSSIP_SENDER_MAIN, ID_GLYPHS+13); // 45757
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Hymn of Hope", GOSSIP_SENDER_MAIN, ID_GLYPHS+14); // 45758
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Pain Suppression", GOSSIP_SENDER_MAIN, ID_GLYPHS+15); // 45760
                         break;
                     case CLASS_PALADIN:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+16); // 41107
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+17); // 41101
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+18); // 43867
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+19); // 43868
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+20); // 43869
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+21); // 41097
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+22); // 45741
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+23); // 45742
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+24); // 45743
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+25); // 45744
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Avenging Wrath", GOSSIP_SENDER_MAIN, ID_GLYPHS+16); // 41107
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Avenger's Shield", GOSSIP_SENDER_MAIN, ID_GLYPHS+17); // 41101
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Holy Wrath", GOSSIP_SENDER_MAIN, ID_GLYPHS+18); // 43867
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Seal of Righteousness", GOSSIP_SENDER_MAIN, ID_GLYPHS+19); // 43868
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Seal of Vengeance", GOSSIP_SENDER_MAIN, ID_GLYPHS+20); // 43869
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Hammer of Wrath", GOSSIP_SENDER_MAIN, ID_GLYPHS+21); // 41097
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Beacon of Light", GOSSIP_SENDER_MAIN, ID_GLYPHS+22); // 45741
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Hammer of the Righteous", GOSSIP_SENDER_MAIN, ID_GLYPHS+23); // 45742
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Divine Storm", GOSSIP_SENDER_MAIN, ID_GLYPHS+24); // 45743
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shield of Righteousness", GOSSIP_SENDER_MAIN, ID_GLYPHS+25); // 45744
                         break;
                     case CLASS_WARRIOR:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+26); // 43419
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+27); // 43415
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+28); // 45790
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+29); // 45792
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+30); // 45793
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+31); // 45794
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+32); // 45795
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+33); // 45797
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+34); // 43412
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+35); // 43421
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Intervene", GOSSIP_SENDER_MAIN, ID_GLYPHS+26); // 43419
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Devastate", GOSSIP_SENDER_MAIN, ID_GLYPHS+27); // 43415
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Bladestorm", GOSSIP_SENDER_MAIN, ID_GLYPHS+28); // 45790
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shockwave", GOSSIP_SENDER_MAIN, ID_GLYPHS+29); // 45792
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Vigilance", GOSSIP_SENDER_MAIN, ID_GLYPHS+30); // 45793
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Enraged Regeneration", GOSSIP_SENDER_MAIN, ID_GLYPHS+31); // 45794
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Spell Reflection", GOSSIP_SENDER_MAIN, ID_GLYPHS+32); // 45795
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shield Wall", GOSSIP_SENDER_MAIN, ID_GLYPHS+33); // 45797
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Bloodthirst", GOSSIP_SENDER_MAIN, ID_GLYPHS+34); // 43412
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Mortal Strike", GOSSIP_SENDER_MAIN, ID_GLYPHS+35); // 43421
                         break;
                     case CLASS_MAGE:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+36); // 44684
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+37); // 42748
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+38); // 42745
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+39); // 42751
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+40); // 44955
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+41); // 42754
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+42); // 50045
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+43); // 42736
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+44); // 45736
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+45); // 45737
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Frostfire", GOSSIP_SENDER_MAIN, ID_GLYPHS+36); // 44684
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Invisibility", GOSSIP_SENDER_MAIN, ID_GLYPHS+37); // 42748
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Ice Lance", GOSSIP_SENDER_MAIN, ID_GLYPHS+38); // 42745
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Molten Armor", GOSSIP_SENDER_MAIN, ID_GLYPHS+39); // 42751
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Arcane Blast", GOSSIP_SENDER_MAIN, ID_GLYPHS+40); // 44955
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Water Elemental", GOSSIP_SENDER_MAIN, ID_GLYPHS+41); // 42754
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Eternal Water", GOSSIP_SENDER_MAIN, ID_GLYPHS+42); // 50045
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Arcane Power", GOSSIP_SENDER_MAIN, ID_GLYPHS+43); // 42736
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Deep Freeze", GOSSIP_SENDER_MAIN, ID_GLYPHS+44); // 45736
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Living Bomb", GOSSIP_SENDER_MAIN, ID_GLYPHS+45); // 45737
                         break;
                     case CLASS_WARLOCK:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+46); // 42459
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+47); // 42472
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+48); // 42457
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+49); // 42454
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+50); // 42463
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+51); // 45779
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+52); // 45780
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+53); // 45781
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+54); // 45782
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+55); // 45783
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Felguard", GOSSIP_SENDER_MAIN, ID_GLYPHS+46); // 42459
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Unstable Affliction", GOSSIP_SENDER_MAIN, ID_GLYPHS+47); // 42472
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Death Coil", GOSSIP_SENDER_MAIN, ID_GLYPHS+48); // 42457
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Conflagrate", GOSSIP_SENDER_MAIN, ID_GLYPHS+49); // 42454
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Howl of Terror", GOSSIP_SENDER_MAIN, ID_GLYPHS+50); // 42463
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Haunt", GOSSIP_SENDER_MAIN, ID_GLYPHS+51); // 45779
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Metamorphosis", GOSSIP_SENDER_MAIN, ID_GLYPHS+52); // 45780
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Chaos Bolt", GOSSIP_SENDER_MAIN, ID_GLYPHS+53); // 45781
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Demonic Circle", GOSSIP_SENDER_MAIN, ID_GLYPHS+54); // 45782
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shadowflame", GOSSIP_SENDER_MAIN, ID_GLYPHS+55); // 45783
                         break;
                     case CLASS_SHAMAN:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+56); // 41529
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+57); // 41524
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+58); // 41552
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+59); // 41517
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+60); // 41538
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+61); // 41539
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+62); // 45770
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+63); // 45771
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+64); // 45772
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+65); // 45775
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Fire Elemental Totem", GOSSIP_SENDER_MAIN, ID_GLYPHS+56); // 41529
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Lava", GOSSIP_SENDER_MAIN, ID_GLYPHS+57); // 41524
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Elemental Mastery", GOSSIP_SENDER_MAIN, ID_GLYPHS+58); // 41552
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Chain Heal", GOSSIP_SENDER_MAIN, ID_GLYPHS+59); // 41517
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Mana Tide Totem", GOSSIP_SENDER_MAIN, ID_GLYPHS+60); // 41538
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Stormstrike", GOSSIP_SENDER_MAIN, ID_GLYPHS+61); // 41539
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Thunder", GOSSIP_SENDER_MAIN, ID_GLYPHS+62); // 45770
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Feral Spirit", GOSSIP_SENDER_MAIN, ID_GLYPHS+63); // 45771
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Riptide", GOSSIP_SENDER_MAIN, ID_GLYPHS+64); // 45772
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Earth Shield", GOSSIP_SENDER_MAIN, ID_GLYPHS+65); // 45775
                         break;
                     case CLASS_DRUID:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+66); // 40915
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+67); // 44928
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+68); // 40921
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+69); // 40900
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+70); // 40906
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+71); // 40908
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+72); // 40920
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+73); // 45601
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+74); // 45602
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+75); // 45603
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Lifebloom", GOSSIP_SENDER_MAIN, ID_GLYPHS+66); // 40915
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Focus", GOSSIP_SENDER_MAIN, ID_GLYPHS+67); // 44928
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Starfall", GOSSIP_SENDER_MAIN, ID_GLYPHS+68); // 40921
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Mangle", GOSSIP_SENDER_MAIN, ID_GLYPHS+69); // 40900
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Swiftmend", GOSSIP_SENDER_MAIN, ID_GLYPHS+70); // 40906
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Innervate", GOSSIP_SENDER_MAIN, ID_GLYPHS+71); // 40908
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Hurricane", GOSSIP_SENDER_MAIN, ID_GLYPHS+72); // 40920
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Berserk", GOSSIP_SENDER_MAIN, ID_GLYPHS+73); // 45601
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Wild Growth", GOSSIP_SENDER_MAIN, ID_GLYPHS+74); // 45602
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Nourish", GOSSIP_SENDER_MAIN, ID_GLYPHS+75); // 45603
                         break;
                     case CLASS_HUNTER:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+76); // 42913
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+77); // 42914
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+78); // 42902
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+79); // 42915
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+80); // 42916
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+81); // 42917
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+82); // 45625
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+83); // 45731
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+84); // 45732
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+85); // 45733
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Snake Trap", GOSSIP_SENDER_MAIN, ID_GLYPHS+76); // 42913
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Steady Shot", GOSSIP_SENDER_MAIN, ID_GLYPHS+77); // 42914
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Bestial Wrath", GOSSIP_SENDER_MAIN, ID_GLYPHS+78); // 42902
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Trueshot Aura", GOSSIP_SENDER_MAIN, ID_GLYPHS+79); // 42915
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Volley", GOSSIP_SENDER_MAIN, ID_GLYPHS+80); // 42916
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Wyvern Sting", GOSSIP_SENDER_MAIN, ID_GLYPHS+81); // 42917
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Chimera Shot", GOSSIP_SENDER_MAIN, ID_GLYPHS+82); // 45625
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Explosive Shot", GOSSIP_SENDER_MAIN, ID_GLYPHS+83); // 45731
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Kill Shot", GOSSIP_SENDER_MAIN, ID_GLYPHS+84); // 45732
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Explosive Trap", GOSSIP_SENDER_MAIN, ID_GLYPHS+85); // 45733
                         break;
                     case CLASS_ROGUE:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+86); // 42971
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+87); // 42959
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+88); // 42954
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+89); // 45761
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+90); // 45762
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+91); // 45764
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+92); // 45766
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+93); // 45767
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+94); // 45768
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+95); // 45769
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Vigor", GOSSIP_SENDER_MAIN, ID_GLYPHS+86); // 42971
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Deadly Throw", GOSSIP_SENDER_MAIN, ID_GLYPHS+87); // 42959
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Adrenaline Rush", GOSSIP_SENDER_MAIN, ID_GLYPHS+88); // 42954
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Hunger for Blood", GOSSIP_SENDER_MAIN, ID_GLYPHS+89); // 45761
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Killing Spree", GOSSIP_SENDER_MAIN, ID_GLYPHS+90); // 45762
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Shadow Dance", GOSSIP_SENDER_MAIN, ID_GLYPHS+91); // 45764
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Fan of Knives", GOSSIP_SENDER_MAIN, ID_GLYPHS+92); // 45766
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Tricks of the Trade", GOSSIP_SENDER_MAIN, ID_GLYPHS+93); // 45767
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Mutilate", GOSSIP_SENDER_MAIN, ID_GLYPHS+94); // 45768
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Cloak of Shadows", GOSSIP_SENDER_MAIN, ID_GLYPHS+95); // 45769
                         break;
                     case CLASS_DEATH_KNIGHT:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+96); // 43533
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+97); // 43534
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+98); // 43536
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+99); // 43537
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+100); // 43538
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+101); // 43541
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+102); // 43542
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+103); // 43543
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+104); // 43545
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+105); // 43546
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Anti-Magic Shell", GOSSIP_SENDER_MAIN, ID_GLYPHS+96); // 43533
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Heart Strike", GOSSIP_SENDER_MAIN, ID_GLYPHS+97); // 43534
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Bone Shield", GOSSIP_SENDER_MAIN, ID_GLYPHS+98); // 43536
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Chains of Ice", GOSSIP_SENDER_MAIN, ID_GLYPHS+99); // 43537
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Dark Command", GOSSIP_SENDER_MAIN, ID_GLYPHS+100); // 43538
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Death Grip", GOSSIP_SENDER_MAIN, ID_GLYPHS+101); // 43541
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Death and Decay", GOSSIP_SENDER_MAIN, ID_GLYPHS+102); // 43542
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Frost Strike", GOSSIP_SENDER_MAIN, ID_GLYPHS+103); // 43543
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Icebound Fortitude", GOSSIP_SENDER_MAIN, ID_GLYPHS+104); // 43545
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of Icy Touch", GOSSIP_SENDER_MAIN, ID_GLYPHS+105); // 43546
                         break;
                     default:
                         break;
@@ -2169,124 +2169,124 @@ class Kickstarter : public CreatureScript
                 switch (player->getClass())
                 {
                     case CLASS_PRIEST:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+106); // 42405
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+107); // 42409
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+108); // 42417
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+109); // 42399
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+110); // 42400
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+111); // 42401
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+112); // 42407
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+113); // 42412
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+114); // 42397
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+115); // 42415
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+106); // 42405
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+107); // 42409
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+108); // 42417
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+109); // 42399
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+110); // 42400
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+111); // 42401
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+112); // 42407
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+113); // 42412
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+114); // 42397
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+115); // 42415
                         break;
                     case CLASS_PALADIN:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+116); // 45745
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+117); // 45746
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+118); // 45747
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+119); // 41109
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+120); // 41104
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+121); // 41110
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+122); // 41102
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+123); // 41094
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+124); // 41098
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+125); // 41099
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+116); // 45745
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+117); // 45746
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+118); // 45747
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+119); // 41109
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+120); // 41104
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+121); // 41110
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+122); // 41102
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+123); // 41094
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+124); // 41098
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+125); // 41099
                         break;
                     case CLASS_WARRIOR:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+126); // 43425
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+127); // 43432
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+128); // 43428
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+129); // 43416
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+130); // 43414
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+131); // 43426
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+132); // 43420
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+133); // 43431
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+134); // 43424
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+135); // 43422
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+126); // 43425
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+127); // 43432
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+128); // 43428
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+129); // 43416
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+130); // 43414
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+131); // 43426
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+132); // 43420
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+133); // 43431
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+134); // 43424
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+135); // 43422
                         break;
                     case CLASS_MAGE:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+136); // 45738
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+137); // 45739
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+138); // 45740
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+139); // 42749
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+140); // 42744
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+141); // 42750
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+142); // 42737
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+143); // 42738
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+144); // 42746
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+145); // 42747
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+136); // 45738
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+137); // 45739
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+138); // 45740
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+139); // 42749
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+140); // 42744
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+141); // 42750
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+142); // 42737
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+143); // 42738
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+144); // 42746
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+145); // 42747
                         break;
                     case CLASS_WARLOCK:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+146); // 45785
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+147); // 45789
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+148); // 42460
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+149); // 42469
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+150); // 42453
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+151); // 42471
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+152); // 42468
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+153); // 42466
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+154); // 42470
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+155); // 42461
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+146); // 45785
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+147); // 45789
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+148); // 42460
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+149); // 42469
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+150); // 42453
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+151); // 42471
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+152); // 42468
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+153); // 42466
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+154); // 42470
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+155); // 42461
                         break;
                     case CLASS_SHAMAN:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+156); // 45776
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+157); // 45777
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+158); // 45778
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+159); // 41518
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+160); // 41527
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+161); // 41542
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+162); // 41533
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+163); // 41535
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+164); // 41541
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+165); // 41547
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+156); // 45776
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+157); // 45777
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+158); // 45778
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+159); // 41518
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+160); // 41527
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+161); // 41542
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+162); // 41533
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+163); // 41535
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+164); // 41541
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+165); // 41547
                         break;
                     case CLASS_DRUID:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+166); // 45604
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+167); // 45622
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+168); // 45623
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+169); // 40896
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+170); // 40903
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+171); // 40901
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+172); // 40902
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+173); // 40909
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+174); // 40916
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+175); // 40919
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+166); // 45604
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+167); // 45622
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+168); // 45623
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+169); // 40896
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+170); // 40903
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+171); // 40901
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+172); // 40902
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+173); // 40909
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+174); // 40916
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+175); // 40919
                         break;
                     case CLASS_HUNTER:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+176); // 45734
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+177); // 45735
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+178); // 42899
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+179); // 42906
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+180); // 42911
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+181); // 42897
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+182); // 42903
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+183); // 42904
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+184); // 42905
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+185); // 42910
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+176); // 45734
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+177); // 45735
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+178); // 42899
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+179); // 42906
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+180); // 42911
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+181); // 42897
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+182); // 42903
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+183); // 42904
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+184); // 42905
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+185); // 42910
                         break;
                     case CLASS_ROGUE:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+186); // 45908
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+187); // 42957
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+188); // 42967
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+189); // 42968
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+190); // 42958
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+191); // 42965
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+192); // 42969
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+193); // 42955
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+194); // 42963
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+195); // 42962
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+186); // 45908
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+187); // 42957
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+188); // 42967
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+189); // 42968
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+190); // 42958
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+191); // 42965
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+192); // 42969
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+193); // 42955
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+194); // 42963
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+195); // 42962
                         break;
                     case CLASS_DEATH_KNIGHT:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+196); // 43547
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+197); // 43548
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+198); // 43549
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+199); // 43550
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+200); // 43551
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+201); // 43552
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+202); // 43553
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+203); // 43554
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+204); // 43825
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+205); // 43826
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+196); // 43547
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+197); // 43548
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+198); // 43549
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+199); // 43550
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+200); // 43551
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+201); // 43552
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+202); // 43553
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+203); // 43554
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+204); // 43825
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+205); // 43826
                         break;
                     default:
                         break;
@@ -2305,106 +2305,106 @@ class Kickstarter : public CreatureScript
                 switch (player->getClass())
                 {
                     case CLASS_PRIEST:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+206); // 42410
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+207); // 42402
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+208); // 42406
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+209); // 42398
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+210); // 42411
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+211); // 42408
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+212); // 42416
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+206); // 42410
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+207); // 42402
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+208); // 42406
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+209); // 42398
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+210); // 42411
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+211); // 42408
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+212); // 42416
                         break;
                     case CLASS_PALADIN:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+213); // 41103
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+214); // 41105
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+215); // 41100
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+216); // 41096
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+217); // 41108
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+218); // 41095
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+219); // 41092
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+220); // 41106
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+213); // 41103
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+214); // 41105
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+215); // 41100
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+216); // 41096
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+217); // 41108
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+218); // 41095
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+219); // 41092
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+220); // 41106
                         break;
                     case CLASS_WARRIOR:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+221); // 43427
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+222); // 43429
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+223); // 43417
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+224); // 43430
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+225); // 43413
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+226); // 43423
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+227); // 43418
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+221); // 43427
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+222); // 43429
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+223); // 43417
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+224); // 43430
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+225); // 43413
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+226); // 43423
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+227); // 43418
                         break;
                     case CLASS_MAGE:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+228); // 42753
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+229); // 42734
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+230); // 42741
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+231); // 42743
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+232); // 42735
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+233); // 42752
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+234); // 42740
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+235); // 42742
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+236); // 42739
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+228); // 42753
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+229); // 42734
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+230); // 42741
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+231); // 42743
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+232); // 42735
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+233); // 42752
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+234); // 42740
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+235); // 42742
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+236); // 42739
                         break;
                     case CLASS_WARLOCK:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+237); // 42455
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+238); // 42462
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+239); // 42473
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+240); // 50077
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+241); // 42456
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+242); // 42458
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+243); // 42465
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+244); // 42464
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+245); // 42467
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+237); // 42455
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+238); // 42462
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+239); // 42473
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+240); // 50077
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+241); // 42456
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+242); // 42458
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+243); // 42465
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+244); // 42464
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+245); // 42467
                         break;
                     case CLASS_SHAMAN:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+246); // 41530
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+247); // 41531
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+248); // 41532
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+249); // 41540
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+250); // 41537
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+251); // 41526
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+252); // 41534
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+253); // 41536
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+246); // 41530
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+247); // 41531
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+248); // 41532
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+249); // 41540
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+250); // 41537
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+251); // 41526
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+252); // 41534
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+253); // 41536
                         break;
                     case CLASS_DRUID:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+254); // 46372
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+255); // 48720
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+256); // 40912
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+257); // 40899
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+258); // 40923
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+259); // 40897
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+260); // 40914
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+261); // 40924
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+262); // 40913
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+263); // 50125
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+254); // 46372
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+255); // 48720
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+256); // 40912
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+257); // 40899
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+258); // 40923
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+259); // 40897
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+260); // 40914
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+261); // 40924
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+262); // 40913
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+263); // 50125
                         AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Next Page", GOSSIP_SENDER_MAIN, ID_GLYPHS+4);
                         break;
                     case CLASS_HUNTER:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+264); // 42908
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+265); // 42901
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+266); // 42909
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+267); // 42898
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+268); // 42907
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+269); // 42900
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+270); // 42912
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+264); // 42908
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+265); // 42901
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+266); // 42909
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+267); // 42898
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+268); // 42907
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+269); // 42900
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+270); // 42912
                         break;
                     case CLASS_ROGUE:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+271); // 42964
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+272); // 42970
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+273); // 42973
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+274); // 42974
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+275); // 42960
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+276); // 42966
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+277); // 42956
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+278); // 42961
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+279); // 42972
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+271); // 42964
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+272); // 42970
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+273); // 42973
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+274); // 42974
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+275); // 42960
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+276); // 42966
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+277); // 42956
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+278); // 42961
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+279); // 42972
                         break;
                     case CLASS_DEATH_KNIGHT:
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+280); // 43827
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+281); // 45799
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+282); // 45800
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+283); // 45803
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+284); // 45804
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+285); // 45805
-                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "", GOSSIP_SENDER_MAIN, ID_GLYPHS+286); // 45806
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+280); // 43827
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+281); // 45799
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+282); // 45800
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+283); // 45803
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+284); // 45804
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+285); // 45805
+                        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Glyph of ", GOSSIP_SENDER_MAIN, ID_GLYPHS+286); // 45806
                         break;
                     default:
                         break;
@@ -2528,6 +2528,698 @@ class Kickstarter : public CreatureScript
                 }
 
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, ID_GLYPHS);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+6)
+            {
+                player->AddItem(42404, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+7)
+            {
+                player->AddItem(42414, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+8)
+            {
+                player->AddItem(42396, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+9)
+            {
+                player->AddItem(42403, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+10)
+            {
+                player->AddItem(45753, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+11)
+            {
+                player->AddItem(45755, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+12)
+            {
+                player->AddItem(45756, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+13)
+            {
+                player->AddItem(45757, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+14)
+            {
+                player->AddItem(45758, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Priest)
+            if (action == ID_GLYPHS+15)
+            {
+                player->AddItem(45760, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+16)
+            {
+                player->AddItem(41107, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+17)
+            {
+                player->AddItem(41101, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+18)
+            {
+                player->AddItem(43867, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+19)
+            {
+                player->AddItem(43868, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+20)
+            {
+                player->AddItem(43869, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+21)
+            {
+                player->AddItem(41097, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+22)
+            {
+                player->AddItem(45741, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+23)
+            {
+                player->AddItem(45742, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+24)
+            {
+                player->AddItem(45743, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Paladin)
+            if (action == ID_GLYPHS+15)
+            {
+                player->AddItem(45744, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+26)
+            {
+                player->AddItem(43419, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+27)
+            {
+                player->AddItem(43415, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+28)
+            {
+                player->AddItem(45790, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+29)
+            {
+                player->AddItem(45792, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+30)
+            {
+                player->AddItem(45793, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+31)
+            {
+                player->AddItem(45794, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+32)
+            {
+                player->AddItem(45795, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+33)
+            {
+                player->AddItem(45797, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+34)
+            {
+                player->AddItem(43412, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warrior)
+            if (action == ID_GLYPHS+35)
+            {
+                player->AddItem(43421, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+36)
+            {
+                player->AddItem(44684, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+37)
+            {
+                player->AddItem(42748, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+38)
+            {
+                player->AddItem(42745, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+39)
+            {
+                player->AddItem(42751, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+40)
+            {
+                player->AddItem(44955, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+41)
+            {
+                player->AddItem(42754, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+42)
+            {
+                player->AddItem(50045, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+43)
+            {
+                player->AddItem(42736, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+44)
+            {
+                player->AddItem(45736, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Mage)
+            if (action == ID_GLYPHS+45)
+            {
+                player->AddItem(45737, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+46)
+            {
+                player->AddItem(42459, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+47)
+            {
+                player->AddItem(42472, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+48)
+            {
+                player->AddItem(42457, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+49)
+            {
+                player->AddItem(42454, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+50)
+            {
+                player->AddItem(42463, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+51)
+            {
+                player->AddItem(45779, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+52)
+            {
+                player->AddItem(45780, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+53)
+            {
+                player->AddItem(45781, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+54)
+            {
+                player->AddItem(45782, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Warlock)
+            if (action == ID_GLYPHS+55)
+            {
+                player->AddItem(45783, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+56)
+            {
+                player->AddItem(41529, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+57)
+            {
+                player->AddItem(41524, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+58)
+            {
+                player->AddItem(41552, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+59)
+            {
+                player->AddItem(41517, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+60)
+            {
+                player->AddItem(41538, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+61)
+            {
+                player->AddItem(41539, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+62)
+            {
+                player->AddItem(45770, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+63)
+            {
+                player->AddItem(45771, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+64)
+            {
+                player->AddItem(45772, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Shaman)
+            if (action == ID_GLYPHS+65)
+            {
+                player->AddItem(45775, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+66)
+            {
+                player->AddItem(40915, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+67)
+            {
+                player->AddItem(44928, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+68)
+            {
+                player->AddItem(40921, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+69)
+            {
+                player->AddItem(40900, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+70)
+            {
+                player->AddItem(40906, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+71)
+            {
+                player->AddItem(40908, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+72)
+            {
+                player->AddItem(40920, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+73)
+            {
+                player->AddItem(45601, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+74)
+            {
+                player->AddItem(45602, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+75)
+            {
+                player->AddItem(45603, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+76)
+            {
+                player->AddItem(42913, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+77)
+            {
+                player->AddItem(42914, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+78)
+            {
+                player->AddItem(42902, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+79)
+            {
+                player->AddItem(42915, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+80)
+            {
+                player->AddItem(42916, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+81)
+            {
+                player->AddItem(42917, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+82)
+            {
+                player->AddItem(45625, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+83)
+            {
+                player->AddItem(45731, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+84)
+            {
+                player->AddItem(45732, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Hunter)
+            if (action == ID_GLYPHS+85)
+            {
+                player->AddItem(45733, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+86)
+            {
+                player->AddItem(42971, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+87)
+            {
+                player->AddItem(42959, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+88)
+            {
+                player->AddItem(42954, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+89)
+            {
+                player->AddItem(45761, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+90)
+            {
+                player->AddItem(45762, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+91)
+            {
+                player->AddItem(45764, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+92)
+            {
+                player->AddItem(45766, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+93)
+            {
+                player->AddItem(45767, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+94)
+            {
+                player->AddItem(45768, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Rogue)
+            if (action == ID_GLYPHS+95)
+            {
+                player->AddItem(45769, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+96)
+            {
+                player->AddItem(43533, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+97)
+            {
+                player->AddItem(43534, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+98)
+            {
+                player->AddItem(43536, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+99)
+            {
+                player->AddItem(43537, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+100)
+            {
+                player->AddItem(43538, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+101)
+            {
+                player->AddItem(43541, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+102)
+            {
+                player->AddItem(43542, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+103)
+            {
+                player->AddItem(43543, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+104)
+            {
+                player->AddItem(43545, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Death Knight)
+            if (action == ID_GLYPHS+105)
+            {
+                player->AddItem(43546, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
