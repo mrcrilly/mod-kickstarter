@@ -34,7 +34,7 @@ class Kickstarter : public CreatureScript
                 AddGossipItemFor(player, GOSSIP_ICON_TRAINER, "I want to be able to ride creatures", GOSSIP_SENDER_MAIN, ID_MOUNTS);
 
             if (sConfigMgr->GetBoolDefault("Kickstarter.Utilities", false))
-                AddGossipItemFor(player, GOSSIP_ICON_TRAINER, "What utilities do you offer?", GOSSIP_SENDER_MAIN, ID_UTILITIES);
+                AddGossipItemFor(player, GOSSIP_ICON_TALK, "What utilities do you offer?", GOSSIP_SENDER_MAIN, ID_UTILITIES);
 
             SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
 
