@@ -61,7 +61,7 @@ class Kickstarter : public CreatureScript
                     {
                         if (player->GetItemByPos(INVENTORY_SLOT_BAG_0, i))
                         {
-                            AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Remove all my equipment", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+31);
+                            //AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Remove all my equipment", GOSSIP_SENDER_MAIN, ID_EQUIPMENT+31);
                             AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, 1);
                             SendGossipMenuFor(player, TEXT_KICKSTARTER_EQUIPMENT, creature->GetGUID());
                             return false;
@@ -3921,6 +3921,13 @@ class Kickstarter : public CreatureScript
             if (action == ID_GLYPHS+205)
             {
                 player->AddItem(43826, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Glyphs: Major (Druid)
+            if (action == ID_GLYPHS+287)
+            {
+                player->AddItem(40922, 1);
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
