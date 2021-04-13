@@ -2,19 +2,16 @@
 
 #############################################################################
 #
-# Enable ability to purchase equipment
+# Enable ability to obtain equipment
 # default: 0 (disabled)
 #
 #############################################################################
 
 Kickstarter.Equipment = 0
-Kickstarter.Equipment.Armor = 0
-Kickstarter.Equipment.Accessories = 0
-Kickstarter.Equipment.Weapons = 0
 
 #############################################################################
 #
-# Enable ability to purchase gems
+# Enable ability to obtain gems
 # default: 0 (disabled)
 #
 #############################################################################
@@ -23,7 +20,7 @@ Kickstarter.Gems = 0
 
 #############################################################################
 #
-# Enable ability to purchase glyphs
+# Enable ability to obtain glyphs
 # default: 0 (disabled)
 #
 #############################################################################
@@ -34,8 +31,6 @@ Kickstarter.Glyphs = 0
 #
 # Enable ability to receive all spells for their class
 # default: 0 (disabled)
-#
-# NOT YET REWORKED TO TAKE PLAYERS LEVEL IN MIND!!!
 #
 #############################################################################
 
