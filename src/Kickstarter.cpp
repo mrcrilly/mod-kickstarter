@@ -5410,7 +5410,7 @@ class Kickstarter : public CreatureScript
             if (action == ID_UTILITIES+1)
             {
                 player->SetAtLoginFlag(AT_LOGIN_RENAME);
-                ChatHandler(player->GetSession()).PSendSysMessage("CHAT OUTPUT: Log out to complete the name change.");
+                ChatHandler(player->GetSession()).PSendSysMessage("Log out to complete the name change.");
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
@@ -5418,7 +5418,7 @@ class Kickstarter : public CreatureScript
             if (action == ID_UTILITIES+2)
             {
                 player->SetAtLoginFlag(AT_LOGIN_CHANGE_RACE);
-                ChatHandler(player->GetSession()).PSendSysMessage("CHAT OUTPUT: Log out to complete the race change.");
+                ChatHandler(player->GetSession()).PSendSysMessage("Log out to complete the race change.");
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
@@ -5426,7 +5426,7 @@ class Kickstarter : public CreatureScript
             if (action == ID_UTILITIES+3)
             {
                 player->SetAtLoginFlag(AT_LOGIN_CHANGE_FACTION);
-                ChatHandler(player->GetSession()).PSendSysMessage("CHAT OUTPUT: Log out to complete the faction change.");
+                ChatHandler(player->GetSession()).PSendSysMessage("Log out to complete the faction change.");
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
@@ -5434,7 +5434,7 @@ class Kickstarter : public CreatureScript
             if (action == ID_UTILITIES+4)
             {
                 player->SetAtLoginFlag(AT_LOGIN_CUSTOMIZE);
-                ChatHandler(player->GetSession()).PSendSysMessage("CHAT OUTPUT: Log out to complete the appearance change.");
+                ChatHandler(player->GetSession()).PSendSysMessage("Log out to complete the appearance change.");
                 SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
