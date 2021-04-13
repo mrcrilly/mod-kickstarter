@@ -10,6 +10,7 @@
 #define ID_SPELLS 800
 #define ID_PROFICIENCY 900
 #define ID_MOUNTS 1000
+#define ID_UTILITIES 1100
 
 enum PROFICIENCY
 {

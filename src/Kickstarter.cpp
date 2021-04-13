@@ -33,6 +33,9 @@ class Kickstarter : public CreatureScript
             if (sConfigMgr->GetBoolDefault("Kickstarter.Mounts", false))
                 AddGossipItemFor(player, GOSSIP_ICON_TRAINER, "I want to be able to ride creatures", GOSSIP_SENDER_MAIN, ID_MOUNTS);
 
+            if (sConfigMgr->GetBoolDefault("Kickstarter.Utilities", false))
+                AddGossipItemFor(player, GOSSIP_ICON_TRAINER, "What utilities do you offer?", GOSSIP_SENDER_MAIN, ID_UTILITIES);
+
             SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
 
             return true;
@@ -5380,6 +5383,59 @@ class Kickstarter : public CreatureScript
                 }
 
                 OnGossipHello(player, creature);
+            }
+
+            // Utilities
+            if (action == ID_UTILITIES)
+            {
+                ClearGossipMenuFor(player);
+
+                if (sConfigMgr->GetBoolDefault("Kickstarter.Utilities.ChangeName", false))
+                    AddGossipItemFor(player, GOSSIP_ICON_TALK, "I want to change my name", GOSSIP_SENDER_MAIN, ID_UTILITIES+1);
+
+                if (sConfigMgr->GetBoolDefault("Kickstarter.Utilities.ChangeRace", false))
+                    AddGossipItemFor(player, GOSSIP_ICON_TALK, "I want to change my race", GOSSIP_SENDER_MAIN, ID_UTILITIES+2);
+
+                if (sConfigMgr->GetBoolDefault("Kickstarter.Utilities.ChangeFaction", false))
+                    AddGossipItemFor(player, GOSSIP_ICON_TALK, "I want to change my faction", GOSSIP_SENDER_MAIN, ID_UTILITIES+3);
+
+                if (sConfigMgr->GetBoolDefault("Kickstarter.Utilities.ChangeAppearance", false))
+                    AddGossipItemFor(player, GOSSIP_ICON_TALK, "I want to change my appearance", GOSSIP_SENDER_MAIN, ID_UTILITIES+4);
+
+                AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, 1);
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Utilities: Name
+            if (action == ID_UTILITIES+1)
+            {
+                player->SetAtLoginFlag(AT_LOGIN_RENAME);
+                ChatHandler(player->GetSession()).PSendSysMessage("CHAT OUTPUT: Log out to complete the name change.");
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Utilities: Race
+            if (action == ID_UTILITIES+2)
+            {
+                player->SetAtLoginFlag(AT_LOGIN_CHANGE_RACE);
+                ChatHandler(player->GetSession()).PSendSysMessage("CHAT OUTPUT: Log out to complete the race change.");
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Utilities: Faction
+            if (action == ID_UTILITIES+3)
+            {
+                player->SetAtLoginFlag(AT_LOGIN_CHANGE_FACTION);
+                ChatHandler(player->GetSession()).PSendSysMessage("CHAT OUTPUT: Log out to complete the faction change.");
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
+            }
+
+            // Utilities: Appearance
+            if (action == ID_UTILITIES+4)
+            {
+                player->SetAtLoginFlag(AT_LOGIN_CUSTOMIZE);
+                ChatHandler(player->GetSession()).PSendSysMessage("CHAT OUTPUT: Log out to complete the appearance change.");
+                SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
             }
 
             return true;

@@ -66,3 +66,18 @@ Kickstarter.Mounts.Journeyman = 0
 Kickstarter.Mounts.Expert = 0
 Kickstarter.Mounts.Artisan = 0
 Kickstarter.Mounts.ColdWeather = 0
+
+#############################################################################
+#
+# Enable ability to perform certain character utilities
+# default: 0 (disabled)
+#
+# This includes things such as race change and faction change
+#
+#############################################################################
+
+Kickstarter.Utilities = 0
+Kickstarter.Utilities.ChangeName = 0
+Kickstarter.Utilities.ChangeRace = 0
+Kickstarter.Utilities.ChangeFaction = 0
+Kickstarter.Utilities.ChangeAppearance = 0
