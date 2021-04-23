@@ -15,25 +15,25 @@ class Kickstarter : public CreatureScript
         {
             ClearGossipMenuFor(player);
 
-            if (sConfigMgr->GetBoolDefault("Kickstarter.Equipment", false))
+            if ((sConfigMgr->GetBoolDefault("Kickstarter.Equipment", false)) || (player->GetSession()->GetSecurity() > SEC_PLAYER))
                 AddGossipItemFor(player, GOSSIP_ICON_TALK, "I want some equipment", GOSSIP_SENDER_MAIN, ID_EQUIPMENT);
 
-            if (sConfigMgr->GetBoolDefault("Kickstarter.Gems", false))
+            if ((sConfigMgr->GetBoolDefault("Kickstarter.Gems", false)) || (player->GetSession()->GetSecurity() > SEC_PLAYER))
                 AddGossipItemFor(player, GOSSIP_ICON_TALK, "I want some gems", GOSSIP_SENDER_MAIN, ID_GEMS);
 
-            if (sConfigMgr->GetBoolDefault("Kickstarter.Glyphs", false))
+            if ((sConfigMgr->GetBoolDefault("Kickstarter.Glyphs", false)) || (player->GetSession()->GetSecurity() > SEC_PLAYER))
                 AddGossipItemFor(player, GOSSIP_ICON_TALK, "I want some glyphs", GOSSIP_SENDER_MAIN, ID_GLYPHS);
 
-            if (sConfigMgr->GetBoolDefault("Kickstarter.Spells", false))
+            if ((sConfigMgr->GetBoolDefault("Kickstarter.Spells", false)) || (player->GetSession()->GetSecurity() > SEC_PLAYER))
                 AddGossipItemFor(player, GOSSIP_ICON_TRAINER, "I want spells specific to my class", GOSSIP_SENDER_MAIN, ID_SPELLS);
 
-            if (sConfigMgr->GetBoolDefault("Kickstarter.Proficiency", false))
+            if ((sConfigMgr->GetBoolDefault("Kickstarter.Proficiency", false)) || (player->GetSession()->GetSecurity() > SEC_PLAYER))
                 AddGossipItemFor(player, GOSSIP_ICON_TRAINER, "I want any weapon skills available to me", GOSSIP_SENDER_MAIN, ID_PROFICIENCY);
 
-            if (sConfigMgr->GetBoolDefault("Kickstarter.Mounts", false))
+            if ((sConfigMgr->GetBoolDefault("Kickstarter.Mounts", false)) || (player->GetSession()->GetSecurity() > SEC_PLAYER))
                 AddGossipItemFor(player, GOSSIP_ICON_TRAINER, "I want to be able to ride creatures", GOSSIP_SENDER_MAIN, ID_MOUNTS);
 
-            if (sConfigMgr->GetBoolDefault("Kickstarter.Utilities", false))
+            if ((sConfigMgr->GetBoolDefault("Kickstarter.Utilities", false)) || (player->GetSession()->GetSecurity() > SEC_PLAYER))
                 AddGossipItemFor(player, GOSSIP_ICON_TALK, "What utilities do you offer?", GOSSIP_SENDER_MAIN, ID_UTILITIES);
 
             SendGossipMenuFor(player, TEXT_KICKSTARTER_NEED, creature->GetGUID());
