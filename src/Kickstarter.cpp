@@ -5357,7 +5357,7 @@ class Kickstarter : public CreatureScript
                         break;
                 }
 
-                if (sConfigMgr->GetBoolDefault("Kickstarter.Proficiency.Max", false))
+                if ((sConfigMgr->GetBoolDefault("Kickstarter.Proficiency.Max", false)) || (player->GetSession()->GetSecurity() > SEC_PLAYER))
                     player->UpdateSkillsToMaxSkillsForLevel();
 
                 OnGossipHello(player, creature);
@@ -5390,16 +5390,16 @@ class Kickstarter : public CreatureScript
             {
                 ClearGossipMenuFor(player);
 
-                if (sConfigMgr->GetBoolDefault("Kickstarter.Utilities.ChangeName", false))
+                if ((sConfigMgr->GetBoolDefault("Kickstarter.Utilities.ChangeName", false)) || (player->GetSession()->GetSecurity() > SEC_PLAYER))
                     AddGossipItemFor(player, GOSSIP_ICON_TALK, "I want to change my name", GOSSIP_SENDER_MAIN, ID_UTILITIES+1);
 
-                if (sConfigMgr->GetBoolDefault("Kickstarter.Utilities.ChangeRace", false))
+                if ((sConfigMgr->GetBoolDefault("Kickstarter.Utilities.ChangeRace", false)) || (player->GetSession()->GetSecurity() > SEC_PLAYER))
                     AddGossipItemFor(player, GOSSIP_ICON_TALK, "I want to change my race", GOSSIP_SENDER_MAIN, ID_UTILITIES+2);
 
-                if (sConfigMgr->GetBoolDefault("Kickstarter.Utilities.ChangeFaction", false))
+                if ((sConfigMgr->GetBoolDefault("Kickstarter.Utilities.ChangeFaction", false)) || (player->GetSession()->GetSecurity() > SEC_PLAYER))
                     AddGossipItemFor(player, GOSSIP_ICON_TALK, "I want to change my faction", GOSSIP_SENDER_MAIN, ID_UTILITIES+3);
 
-                if (sConfigMgr->GetBoolDefault("Kickstarter.Utilities.ChangeAppearance", false))
+                if ((sConfigMgr->GetBoolDefault("Kickstarter.Utilities.ChangeAppearance", false)) || (player->GetSession()->GetSecurity() > SEC_PLAYER))
                     AddGossipItemFor(player, GOSSIP_ICON_TALK, "I want to change my appearance", GOSSIP_SENDER_MAIN, ID_UTILITIES+4);
 
                 AddGossipItemFor(player, GOSSIP_ICON_CHAT, "Previous Page", GOSSIP_SENDER_MAIN, 1);
