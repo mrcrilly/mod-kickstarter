@@ -5368,7 +5368,7 @@ class Kickstarter : public CreatureScript
             {
                 for (int i = 0; i < 5; i++)
                 {
-                    if (mountSkill[i][2])
+                    if ((mountSkill[i][2] != 0) || (player->GetSession()->GetSecurity() > SEC_PLAYER))
                         if (player->getLevel() >= mountSkill[i][1])
                             if (!player->HasSpell(mountSkill[i][0]))
                                 player->learnSpell(mountSkill[i][0]);
